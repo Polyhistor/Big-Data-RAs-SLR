@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{AtaeiSecurity}
+B.~Bashari~Rad, N.~Akbarzadeh, P.~Ataei, Y.~Khakbiz, Security and privacy
+  challenges in big data era, International Journal of Control Theory and
+  Applications 9~(43) (2016) 437--448.
+
+\bibitem{AtaeiACIS}
+P.~Ataei, A.~T. Litchfield, Big data reference architectures, a systematic
+  literature review (2020).
+
+\bibitem{AtaeiHype}
+B.~B. Rada, P.~Ataeib, Y.~Khakbizc, N.~Akbarzadehd, The hype of emerging
+  technologies: Big data as a service (2017).
+
+\bibitem{DataBricks}
+\href{https://databricks.com/}{Databricks}.
+\newline\urlprefix\url{https://databricks.com/}
+
+\bibitem{NewVantageSurvey}
+N.~Partners,
+  \href{https://www.supplychain247.com/paper/bi\_data\_and\_ai\_executive\_survey\_2021/pragmadik}{Big
+  data and ai executive survey 2021} (2021).
+\newline\urlprefix\url{https://www.supplychain247.com/paper/bi\_data\_and\_ai\_executive\_survey\_2021/pragmadik}
+
+\bibitem{SigmaSurvey}
+S.~Computing,
+  \href{https://www.sigmacomputing.com/resources/data-language-barrier/}{Bridging
+  the gap between data and business teams} (2020).
+\newline\urlprefix\url{https://www.sigmacomputing.com/resources/data-language-barrier/}
+
+\bibitem{AtaeiBigDataEnvirons}
+B.~B. Rad, P.~Ataei, The big data ecosystem and its environs, International
+  Journal of Computer Science and Network Security (IJCSNS) 17~(3) (2017) 38.
+
+\bibitem{Gorton}
+I.~Gorton, J.~Klein, Distribution, data, deployment, STC 2015 (2015) 78.
+
+\bibitem{Cloutier}
+R.~Cloutier, G.~Muller, D.~Verma, R.~Nilchiani, E.~Hole, M.~Bone, The concept
+  of reference architectures, Systems Engineering 13~(1) (2010) 14--27.
+
+\bibitem{Derras}
+M.~Derras, L.~Deruelle, J.-M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
+  Reference architecture design: A practical approach, in: ICSOFT, pp.
+  633--640.
+
+\bibitem{Iso18384-1}
+I.~Iso, \href{https://www.iso.org/standard/63104.html}{Information technology
+  — reference architecture for service oriented architecture (soa ra) —
+  part 1: Terminology and concepts for soa}, International Organization for
+  Standardization (2016) 51.
+\newline\urlprefix\url{https://www.iso.org/standard/63104.html}
+
+\end{thebibliography}
