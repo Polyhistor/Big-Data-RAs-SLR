@@ -103,7 +103,7 @@ In another effort, Muller et al (\cite{muller2008reference}) defines RA as 'arti
 
 Angelov et al (\cite{angelov2009classification}) defined RAs proposed that 'A reference architecture is a generic architecture for a class of information systems that is used as a foundation for the design of concrete architectures from this class'. Although different authors may have defined RAs with different syntax, the essence remains the same: to reuse the software engineering knowledge for a class of systems, particularly in relation to architecture. 
 
-Given the failure rate of BD projects, we posit RAs as potential solution to facilitate system development and BD architecture, and aim to explore this area through a systematic literature review. 
+Given the failure rate of BD projects, we posit RAs as potential solution to facilitate system development and BD architecture, and aim to explore this area through a systematic literature review. Up to date, there's only one SLR that explored this area (\cite{AtaeiACIS}), which is outdated, suffers from methodological clarity, and is published as a conference paper, which implies lack of detail.
 
 Based on this, the objective of this review is to find and collate the BD RAs available from the body of evidence, highlight their architectural commonality and point out the limitations. This study can be considered a useful primer for practitioners or academics who are interested in partaking in a BD project. 
 
@@ -115,39 +115,20 @@ The research questions are formulated as the following;
 \end{enumerate}
 
 
-\begin{itemize}
-\item document style
-\item baselineskip
-\item front matter
-\item keywords and MSC codes
-\item theorems, definitions and proofs
-\item lables of enumerations
-\item citation style and labeling.
-\end{itemize}
+\section{Review Methodology:}
+This research follows the guidelines of PRISMA (\cite{page2021prisma}). In addition, we adopted PRISMA-S (\cite{rethlefsen2021prisma}) to improve our search strategy and lastly we have used Barbara et al's guidelines for evidence based software engineering and systematic reviews \cite{kitchenham2015evidence}. Although PRISMA is a comprehensive guidelines on conducting a systematic literature review, it is derived from the healthcare community and sometimes makes assumptions that may not be relevant to software engineering and information system researchers. Barbara et al \cite{kitchenham2015evidence} have translated many of these assumptions to the domain of software engineering and have included many guidelines for lone researchers and projects with small number of researchers. 
 
-\section{Front matter}
+We have therefore utilized PRISMA as the underpinning of our research design, with complementary studies to reduce bias, improve transparency and systematiticity. SLR has been chosen because it is a qualitative research methodology that is aimed at driving knowledge and understanding about the subject matter and the elements around it. Besides, SLR provides a transparent and reproducible procedure that elicits patterns, relationships, trends, and delineates the overall picture of the subject \cite{borrego2014systematic}.
 
-The author names and affiliations could be formatted in two ways:
-\begin{enumerate}[(1)]
-\item Group the authors per affiliation.
-\item Use footnotes to indicate the affiliations.
-\end{enumerate}
-See the front matter of this document for examples. You are recommended to conform your choice to the journal you are submitting to.
-
-\section{Bibliography styles}
-
-There are various bibliography styles available. You can select the style of your choice in the preamble of this document. These styles are Elsevier styles based on standard styles like Harvard and Vancouver. Please use Bib\TeX\ to generate your bibliography and include DOIs whenever available.
-
-Here are two sample references: \cite{Feynman1963118,Dirac1953888}.
+The main objective of this study is to assess the current state of BD RAs, identify their major architectural components, point out fundamental concepts and discuss their limitations. This objective is achieved in four phases. In first phase, research questions are stated, literature are identified and pooled, and exclusion and inclusion criteria are defined. In second phase, literatures are assessed for their quality based on inclusion/exclusion criteria and relevance to research questions. Thirdly, selected pool of literature is coded based on research questions. Lastly, findings are synthesized, trends and patterns realized and depicted.
+Figure
 
 \section{Improvements}
 
 \begin{enumerate}
     \item The current writing style looks like a summary description, lacks new insight on the topic. The overall contribution needs to be enhanced.
-    \item The author raises seven research questions, but how does the author develop these questions? Are these real questions that have never been discussed? The research questions need to be developed according to the literature. In this way, we can realize what is the gap on this topic.
     \item The inclusion criteria and exclusion criteria are ambiguous and questionable. Is it possible for readers to reproduce this study according to these criteria? Did the author perform the reliability and validity tests? The author needs to provide more detail about the review methodology.
     \item In general, each larger-scale system requires a more understanding of architectural components, owing largely to the complex nature of system architects. However, I cannot find a case that the authors demonstrate the uniqueness of BD systems, and the actual development challenges in BD systems.
-    \item Although this study adapts SLR approach, it should not completely miss a literature reviewing section. It is necessary to provide to the reader the preliminary details which are necessary to understand the purpose of this study, techniques and key concerns of the various research work that the authors have reviewed. There is no theoretical argument to support the development of the research questions.
     \item The findings yielded by investigating the research questions of this SLR should constitute many discussion points around the research and practice of BD systems. However, the manuscript is completely missing a discussion section. One should expect that the results of SLR can inform the current knowledge and provide several research directions for future research. 
     \item Last, one of the core challenges with the paper is to situate it within an ongoing scholarly conversation. The authors currently reference a fairly diverse set of papers, but remain at a fairly abstract level when it comes to elaborating how your work builds upon and expands existing work. In turn, this makes it difficult to appreciate theoretical implications of your work. 
 \end{enumerate}

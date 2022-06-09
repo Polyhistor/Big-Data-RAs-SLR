@@ -5,53 +5,51 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 The style file: elsarticle-num.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
-Warning--I didn't find a database entry for "Feynman1963118"
-Warning--I didn't find a database entry for "Dirac1953888"
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in AtaeiHype
 Warning--empty author in DataBricks
 Warning--empty journal in DataBricks
 Warning--empty year in DataBricks
 Warning--empty year in Derras
-You've used 14 entries,
+You've used 18 entries,
             2952 wiz_defined-function locations,
-            761 strings with 7651 characters,
-and the built_in function-call counts, 3721 in all, are:
-= -- 310
-> -- 125
-< -- 2
-+ -- 51
-- -- 37
-* -- 225
-:= -- 516
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 13
+            782 strings with 8679 characters,
+and the built_in function-call counts, 4940 in all, are:
+= -- 410
+> -- 201
+< -- 3
++ -- 79
+- -- 61
+* -- 317
+:= -- 700
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 137
-empty$ -- 450
-format.name$ -- 46
-if$ -- 985
+cite$ -- 24
+duplicate$ -- 169
+empty$ -- 573
+format.name$ -- 74
+if$ -- 1290
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 13
-newline$ -- 54
-num.names$ -- 13
-pop$ -- 114
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 66
+num.names$ -- 17
+pop$ -- 139
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 260
+skip$ -- 336
 stack$ -- 0
-substring$ -- 114
-swap$ -- 32
-text.length$ -- 2
+substring$ -- 149
+swap$ -- 36
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 23
-width$ -- 16
-write$ -- 114
-(There were 8 warnings)
+while$ -- 31
+width$ -- 20
+write$ -- 147
+(There were 6 warnings)
