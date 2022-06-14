@@ -11,45 +11,47 @@ Warning--empty author in DataBricks
 Warning--empty journal in DataBricks
 Warning--empty year in DataBricks
 Warning--empty year in Derras
-You've used 18 entries,
+Warning--empty year in JabRef
+Warning--all relevant fields are empty in JabRef
+You've used 19 entries,
             2952 wiz_defined-function locations,
-            782 strings with 8679 characters,
-and the built_in function-call counts, 4940 in all, are:
-= -- 410
-> -- 201
+            785 strings with 8714 characters,
+and the built_in function-call counts, 5105 in all, are:
+= -- 421
+> -- 202
 < -- 3
-+ -- 79
++ -- 80
 - -- 61
-* -- 317
-:= -- 700
-add.period$ -- 18
-call.type$ -- 18
+* -- 327
+:= -- 713
+add.period$ -- 19
+call.type$ -- 19
 change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 169
-empty$ -- 573
+cite$ -- 27
+duplicate$ -- 177
+empty$ -- 601
 format.name$ -- 74
-if$ -- 1290
+if$ -- 1338
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 19
 missing$ -- 18
-newline$ -- 66
+newline$ -- 70
 num.names$ -- 17
-pop$ -- 139
+pop$ -- 148
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 336
+skip$ -- 352
 stack$ -- 0
 substring$ -- 149
-swap$ -- 36
+swap$ -- 37
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
+warning$ -- 8
 while$ -- 31
-width$ -- 20
-write$ -- 147
-(There were 6 warnings)
+width$ -- 21
+write$ -- 153
+(There were 8 warnings)

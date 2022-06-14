@@ -128,7 +128,7 @@ This study builds on the SLR conducted by Ataei et al \cite{AtaeiACIS} and aims 
 
 The first phase of the SLR began, by adoption of PRISMA-S (\cite{rethlefsen2021prisma}) to develop a robust multi-database search strategy. This extension of PRISMA provided us with a framework of 12 items to increase transparency, systematiticity, and reduce bias. 
 
-For the purposes of this study, following electronic databases were search: ScienceDirect, IEEE Explore, SpringerLink, AISeL, JSTOR and ACM library. To pursue to goal of finding all literature available on the topic, and to avoid overlooking valuable research, abstract and citation databases and search engines such as Scopus, Google Scholar, Web of Science, and Research Gate was used.
+For the purposes of this study, following electronic databases were search: ScienceDirect, IEEE Explore, SpringerLink, AISeL, JSTOR and ACM library. To pursue to goal of finding all literature available on the topic, and to avoid overlooking valuable research, abstract and citation databases and search engines such as Google Scholar, and Research Gate was used.
 
 We also searched the grey literature on the topic, using the search string "big data" AND "reference architecture*" on Google ( in June 2022 ). The first 40 results were selected for screening. This was done in 'incognito mode' to avoid any personal customization of the google search pages. 
 
@@ -142,9 +142,13 @@ The platform search capabilities varied, but our search strategy remained unifor
 
 The reason we included architecture is due to the fact that these terms may have been used interchangeably, and an architecture that is at the abstraction level of an RA, might have been called just an architecture. Therefore it was critical for us to firmly define these terms and then categorize studies based on these definitions. 
 
-The search was limited to 2020 to 2022, as the work of Ataei et al \cite{AtaeiACIS} covered the years 2016-2020, and only to researches that has been published in English. Despite the previous effort to collect evidence on the topic, we still did a quick check on the years 2016 to 2020 to make sure no research is left out. The first limit was imposed because more contemporary researches focused on the facilitation of big data system development in light of failure rates, and the second limit was imposed to increase specificity. 
+The search was limited to 2020 to 2022, as the work of Ataei et al \cite{AtaeiACIS} covered the years 2010-2020, and only to researches that has been published in English. Despite the previous effort to collect evidence on the topic, we still included the years 2010 to 2020 to make sure no research is left out or overlooked. The first limit was imposed because more contemporary researches are focused on the facilitation of big data system development in light of failure rates and there's now SLR that has covered those, and the second limit was imposed to increase specificity. 
 
 It is worth mentioning that what we refer to by \textit{limit} here should, not be confused with \textit{filters} or inclusion criteria. To achieve these limits, we have utilized databases features. All databases supported the selection of year range, and the language limit was automatically applied by doing an advanced search with the aforementioned keywords.
+
+Our approach to systematic collection of evidence was to search databases using the keywords aforementioned and then bulk download the BibTex files. Majority of the databases supported bulk downloading of BibTex files except for SpringerLink, Google Scholar, and Research Gate. For SpringerLink we downloaded the studies in CSV format and then converted them to a BibTex using a custom script. For Google Scholar and ResearchGate, unfortunately, we had to take the manual path of creating a bib file for the studies. 
+
+Once all the bib files have been created, we merged them into one large bib file and imported it to a software called JabRef (\cite{JabRef}) for deduplication. 172 studies are pooled initially, out of which 6 duplicates have been identified. We removed the SLR that this study is based on, and also another paper that we could not find the citation for. 
 
 At the end of this phase, 
 

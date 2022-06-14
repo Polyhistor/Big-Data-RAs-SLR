@@ -92,4 +92,8 @@ M.~Borrego, M.~J. Foster, J.~E. Froyd, Systematic literature reviews in
   engineering education and other developing interdisciplinary fields, Journal
   of Engineering Education 103~(1) (2014) 45--76.
 
+\bibitem{JabRef}
+\href{https://www.jabref.org/}{[link]}.
+\newline\urlprefix\url{https://www.jabref.org/}
+
 \end{thebibliography}
