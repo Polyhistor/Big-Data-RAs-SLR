@@ -99,4 +99,8 @@ M.~Borrego, M.~J. Foster, J.~E. Froyd, Systematic literature reviews in
 \bibitem{krippendorff2011computing}
 K.~Krippendorff, Computing krippendorff's alpha-reliability (2011).
 
+\bibitem{CASP}
+\href{https://casp-uk.net/casp-tools-checklists/}{[link]}.
+\newline\urlprefix\url{https://casp-uk.net/casp-tools-checklists/}
+
 \end{thebibliography}
