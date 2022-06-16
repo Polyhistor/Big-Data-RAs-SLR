@@ -16,45 +16,47 @@ Warning--all relevant fields are empty in JabRef
 Warning--empty journal in krippendorff2011computing
 Warning--empty year in CASP
 Warning--all relevant fields are empty in CASP
-You've used 21 entries,
+Warning--empty year in JBI
+Warning--all relevant fields are empty in JBI
+You've used 24 entries,
             2952 wiz_defined-function locations,
-            792 strings with 8854 characters,
-and the built_in function-call counts, 5454 in all, are:
-= -- 447
-> -- 207
+            810 strings with 9283 characters,
+and the built_in function-call counts, 6230 in all, are:
+= -- 518
+> -- 231
 < -- 3
-+ -- 83
-- -- 62
-* -- 343
-:= -- 753
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 17
++ -- 93
+- -- 69
+* -- 403
+:= -- 851
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 192
-empty$ -- 654
-format.name$ -- 75
-if$ -- 1437
+cite$ -- 37
+duplicate$ -- 216
+empty$ -- 746
+format.name$ -- 84
+if$ -- 1637
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 19
-newline$ -- 77
-num.names$ -- 18
-pop$ -- 164
+int.to.str$ -- 24
+missing$ -- 21
+newline$ -- 87
+num.names$ -- 20
+pop$ -- 183
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 384
+skip$ -- 436
 stack$ -- 0
-substring$ -- 149
-swap$ -- 39
+substring$ -- 193
+swap$ -- 42
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 32
-width$ -- 23
-write$ -- 166
-(There were 11 warnings)
+warning$ -- 13
+while$ -- 38
+width$ -- 26
+write$ -- 188
+(There were 13 warnings)

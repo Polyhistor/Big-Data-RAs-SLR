@@ -103,4 +103,18 @@ K.~Krippendorff, Computing krippendorff's alpha-reliability (2011).
 \href{https://casp-uk.net/casp-tools-checklists/}{[link]}.
 \newline\urlprefix\url{https://casp-uk.net/casp-tools-checklists/}
 
+\bibitem{JBI}
+\href{https://jbi.global/critical-appraisal-tools}{[link]}.
+\newline\urlprefix\url{https://jbi.global/critical-appraisal-tools}
+
+\bibitem{runeson2006we}
+P.~Runeson, C.~Andersson, T.~Thelin, A.~Andrews, T.~Berling, What do we know
+  about defect detection methods?[software testing], IEEE software 23~(3)
+  (2006) 82--90.
+
+\bibitem{dybaa2008empirical}
+T.~Dyb{\aa}, T.~Dings{\o}yr, Empirical studies of agile software development: A
+  systematic review, Information and software technology 50~(9-10) (2008)
+  833--859.
+
 \end{thebibliography}
