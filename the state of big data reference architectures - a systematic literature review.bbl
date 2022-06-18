@@ -99,6 +99,21 @@ M.~Borrego, M.~J. Foster, J.~E. Froyd, Systematic literature reviews in
 \bibitem{krippendorff2011computing}
 K.~Krippendorff, Computing krippendorff's alpha-reliability (2011).
 
+\bibitem{noblit1988meta}
+G.~W. Noblit, R.~D. Hare, R.~D. Hare, Meta-ethnography: Synthesizing
+  qualitative studies, Vol.~11, sage, 1988.
+
+\bibitem{dybaa2008empirical}
+T.~Dyb{\aa}, T.~Dings{\o}yr, Empirical studies of agile software development: A
+  systematic review, Information and software technology 50~(9-10) (2008)
+  833--859.
+
+\bibitem{cumpston2019updated}
+M.~Cumpston, T.~Li, M.~J. Page, J.~Chandler, V.~A. Welch, J.~P. Higgins,
+  J.~Thomas, Updated guidance for trusted systematic reviews: a new edition of
+  the cochrane handbook for systematic reviews of interventions, Cochrane
+  Database Syst Rev 10~(10.1002) (2019) 14651858.
+
 \bibitem{CASP}
 \href{https://casp-uk.net/casp-tools-checklists/}{[link]}.
 \newline\urlprefix\url{https://casp-uk.net/casp-tools-checklists/}
@@ -112,9 +127,10 @@ P.~Runeson, C.~Andersson, T.~Thelin, A.~Andrews, T.~Berling, What do we know
   about defect detection methods?[software testing], IEEE software 23~(3)
   (2006) 82--90.
 
-\bibitem{dybaa2008empirical}
-T.~Dyb{\aa}, T.~Dings{\o}yr, Empirical studies of agile software development: A
-  systematic review, Information and software technology 50~(9-10) (2008)
-  833--859.
+\bibitem{dybaa2008strength}
+T.~Dyb{\aa}, T.~Dings{\o}yr, Strength of evidence in systematic reviews in
+  software engineering, in: Proceedings of the Second ACM-IEEE international
+  symposium on Empirical software engineering and measurement, 2008, pp.
+  178--187.
 
 \end{thebibliography}
