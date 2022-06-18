@@ -20,43 +20,43 @@ Warning--empty year in JBI
 Warning--all relevant fields are empty in JBI
 You've used 27 entries,
             2952 wiz_defined-function locations,
-            827 strings with 9941 characters,
-and the built_in function-call counts, 7272 in all, are:
-= -- 608
-> -- 270
-< -- 5
-+ -- 108
-- -- 81
-* -- 470
-:= -- 982
+            831 strings with 10048 characters,
+and the built_in function-call counts, 7195 in all, are:
+= -- 595
+> -- 285
+< -- 4
++ -- 113
+- -- 86
+* -- 482
+:= -- 989
 add.period$ -- 27
 call.type$ -- 27
 change.case$ -- 21
 chr.to.int$ -- 0
 cite$ -- 40
-duplicate$ -- 252
-empty$ -- 870
-format.name$ -- 99
-if$ -- 1914
+duplicate$ -- 240
+empty$ -- 848
+format.name$ -- 104
+if$ -- 1877
 int.to.chr$ -- 0
 int.to.str$ -- 27
 missing$ -- 25
 newline$ -- 96
 num.names$ -- 23
-pop$ -- 209
+pop$ -- 204
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 510
+skip$ -- 492
 stack$ -- 0
-substring$ -- 249
-swap$ -- 53
-text.length$ -- 5
+substring$ -- 242
+swap$ -- 45
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 13
-while$ -- 45
+while$ -- 44
 width$ -- 29
-write$ -- 213
+write$ -- 212
 (There were 13 warnings)

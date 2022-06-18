@@ -127,10 +127,10 @@ P.~Runeson, C.~Andersson, T.~Thelin, A.~Andrews, T.~Berling, What do we know
   about defect detection methods?[software testing], IEEE software 23~(3)
   (2006) 82--90.
 
-\bibitem{dybaa2008strength}
-T.~Dyb{\aa}, T.~Dings{\o}yr, Strength of evidence in systematic reviews in
-  software engineering, in: Proceedings of the Second ACM-IEEE international
-  symposium on Empirical software engineering and measurement, 2008, pp.
-  178--187.
+\bibitem{kitchenham2002preliminary}
+B.~A. Kitchenham, S.~L. Pfleeger, L.~M. Pickard, P.~W. Jones, D.~C. Hoaglin,
+  K.~El~Emam, J.~Rosenberg, Preliminary guidelines for empirical research in
+  software engineering, IEEE Transactions on software engineering 28~(8) (2002)
+  721--734.
 
 \end{thebibliography}
