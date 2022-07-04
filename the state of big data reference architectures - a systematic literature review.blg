@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: the state of big data reference architectures - a systematic literature review.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+The style file: elsarticle-num.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: mybibfile.bib
+Warning--empty journal in AtaeiACIS
+Warning--empty journal in AtaeiHype
+Warning--empty author in DataBricks
+Warning--empty journal in DataBricks
+Warning--empty year in DataBricks
+Warning--empty year in Derras
+Warning--empty year in JabRef
+Warning--all relevant fields are empty in JabRef
+Warning--empty journal in krippendorff2011computing
+Warning--empty year in CASP
+Warning--all relevant fields are empty in CASP
+Warning--empty year in JBI
+Warning--all relevant fields are empty in JBI
+Warning--empty journal in lofland1971analyzing
+You've used 33 entries,
+            2952 wiz_defined-function locations,
+            861 strings with 11018 characters,
+and the built_in function-call counts, 9007 in all, are:
+= -- 760
+> -- 330
+< -- 6
++ -- 132
+- -- 99
+* -- 577
+:= -- 1204
+add.period$ -- 33
+call.type$ -- 33
+change.case$ -- 25
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 312
+empty$ -- 1083
+format.name$ -- 123
+if$ -- 2377
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 33
+newline$ -- 114
+num.names$ -- 29
+pop$ -- 263
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 628
+stack$ -- 0
+substring$ -- 328
+swap$ -- 65
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 14
+while$ -- 58
+width$ -- 35
+write$ -- 259
+(There were 14 warnings)
