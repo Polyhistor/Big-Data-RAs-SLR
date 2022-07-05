@@ -258,18 +258,45 @@ Last,but not least, to increase the rigour, we assessed the trustworthiness of t
 
 \section{Findings}
 
+In this section, we map our findings against the research questions in a series of sub-sections. For increased clarity, these sub sections are exact driven by the research questions and models we created in the previous phase. We first begin by explaining fundamental concepts such as RAs and how they help BD system development and then progressively work towards more specific topics such as current BD RAs and their limitations.
+
+\subsection{What are the fundamental concepts of RAs?}
+
+As the complexity of man-made systems grow, procedures, principles, and concepts of software architecture are increasingly applied to address those complexity faced by practitioners \cite{AtaeiACIS}. A system abstracted and expressed in terms of architectural concepts, facilitates the understanding of system’s essence, properties revolving around it, and evolution of it, which in turn affects quality attributes such as performance, maintainability, and scalability. 
 
 
+In recent years, IT architectures played a pivotal role in the progress and evolution of system development and gained acceptance in maintenance, planning, development, and cost reduction of complex systems \cite{martinez2015solid}. To address ambiguity about what should be developed to address what needs, an architecture can play an overarching role by portraying the fundamental components of the system and the means and ways in which these components communicate to achieve the overall goal of the system \cite{Sievi-Korte}. This in turn creates manageable components that can be used to address different aspect of the problem and provides stakeholders with an abstract artefact to observe, reflect upon, contribute to, and communicate with \cite{kohler2019towards}
 
+Many successful IT artefacts today stemmed from an effective RA. A few good examples are the Open Systems Interconnection model or OSI \cite{zimmermann1980osi}, Open Authentication or OATH \cite{OATH}, Common Object Request Broker Architecture or CORBA \cite{pope1998corba}, and WMS or workflow management systems \cite{greefhorst1999een}. In fact, every system goes with an architecture, either known or unknown, and it is in the architecture that the overall qualities of the system are defined
 
+Whereas there are various definitions to what constitutes an RA, they all share the same principle that the concept of patterns plays a significant role. Some studies have defined RAs as “a predefined architectural pattern, or set of patterns, possible, partially or completely instantiated, designed, and proven for use in particular business and technical contexts, together with supporting artifacts to enable their use” \cite{Cloutier}. In Software Product Line (SPL) development, RAs are defined as generic schema that can be instantiated and configured for a particular class of systems \cite{Derras}.
 
+In software engineering, RAs can be defined as an artefact that transfers software engineering knowledge as a family of solutions to a problem domain \cite{Klein}. In another terms, RAs are artefacts that embody domain relevant concepts and qualities, break down solutions and a create a ubiquitous language to facilitate effective communication, and inform various stakeholders. 
 
+Taking all into consideration, and based on the model created based on our thematic synthesis, five major concept of RAs are identified as the following; 
 
+\begin{enumerate}
+    \item \textbf{RAs are at the highest level of abstraction}: RAs aim to capture the essence of the practice as an abstraction that portrays elements necessary for communication, standardization, implementation and maintenance of certain class of systems. Hence, RAs aim to inject software engineering knowledge as a set of high-level architectural patterns and do not provide implementation details such as specific frameworks, vendors or environments. RAs are at higher level of abstraction that concrete architectures. 
+   \item \textbf{RAs emphasize heavily on architectural qualities}: RAs, sitting at a higher level of abstractions are artifacts created for a wider audience and a bigger context, and are usually used by solution architects to deduce a concrete architecture in a specific environment (\cite{angelov2008towards}, \cite{stricker2010creating}). As a result, RAs pay more attention to architectural qualities.
+   \item \textbf{In RAs, stakeholders are not clearly defined}: Stakeholders are usually people of the same company involved in the actual design and implementation of the system and do get involved in the product creation in various phases. Different stakeholders have different concerns and are crucial to the creation of the overall product \cite{geerdink2013reference}. A stakeholder can be a developer, a designer, a product owner, a data scientist or a business analyst. Notwithstanding, due to the generic nature of the RAs, it is not feasible to indicate all stakeholders a priori. RAs are at a higher level of abstraction and tend to provide a generic solution for a class of problems, not a specific context. Therefore, defining and introducing stakeholders into RAs can potentially decrease their effectiveness (\cite{AtaeiACIS}, \cite{Chang}).
+   \item \textbf{RAs promote adherence to common standards}: The design of an RA is usually guided by existing architectural patterns based on common pitfalls in practice, the body of literature and various models. For this reason, RAs convey standard approaches and patterns that avoid known pitfall, facilitate reuse, and decrease complexity. 
+   \item \textbf{5.	RAs are effective artefacts for system development and communication}: RAs are powerful artefacts that can be used by architects that design, manage, and utilize complex system. Because RAs are created as assets that codify the best practice and conventions of the industry and often include architectural descriptions and standards, they can be deemed effective artefacts for system development and communication. 
+\end{enumerate}
 
+\section{How can RAs help BD system development? }
 
+Despite the high failure rate of BD projects, IT giants such as Google, Facebook or Amazon have developed exclusive BD systems with complicated data pipelines, data management, procurement and batch and real-time analysis capabilities \cite{kohler2019towards}. Having the resources required, these companies attract the best of talent from around the globe to manage the complexity involved in development of big data systems. Notwithstanding, that’s not the reality of majority of organizations that are trying to benefit from big data analytics. 
 
+Big data systems sail away from traditional small data analytics paradigms and bring various challenges including rapid technology change challenges \cite{chen2017big}, system development and architecture challenges \cite{jagadish2014big}, and organizational challenges \cite{AtaeiHype}. Moreover, big data systems are distributed in nature and need to account for various kind of data processing usually batch and stream processing. This combined with the complexity of maintaining and scaling data quality, metadata, data catalogs, data dimension modeling, and data evovalability, designing an effective big data system can be perceived a daunting task. BD does not only mean ‘big’ amount of data, or just volume; other characteristics of BD such as velocity, variety, veracity and variability bring significant challenges to the practice. Although these challenges do not only belong to domain of BD systems, BD exacerbates these challenges because of the following reasons;
 
-
+\begin{enumerate}
+    \item Distributed scaling is required to address batch and stream processing demands
+    \item There is a need for real near-time performance (stream processing) 
+    \item Complex technology orchestration is required to create effective communication channels between components and data flow
+    \item Continuous delivery is required to continually disseminate patterns and insights into various business domains
+    \item Two different approaches are required for data processing, stream and batch processing; or fast and delayed processing 	(Jagadish et al., 2014)
+    
+\end{enumerate}
 
 % Most literature selected were within the years 2016-2021 as they provided with most recent and relevant information. Howbeit, some studies dating back to 2010 have been included to provide fundamental knowledge regarding big data systems, reference architectures and architecture evaluation.
 

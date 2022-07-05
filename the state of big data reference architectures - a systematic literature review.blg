@@ -19,45 +19,48 @@ Warning--all relevant fields are empty in CASP
 Warning--empty year in JBI
 Warning--all relevant fields are empty in JBI
 Warning--empty journal in lofland1971analyzing
-You've used 33 entries,
+Warning--empty year in Klein
+Warning--empty institution in Chang
+Warning--empty journal in chen2017big
+You've used 47 entries,
             2952 wiz_defined-function locations,
-            861 strings with 11018 characters,
-and the built_in function-call counts, 9007 in all, are:
-= -- 760
-> -- 330
-< -- 6
-+ -- 132
-- -- 99
-* -- 577
-:= -- 1204
-add.period$ -- 33
-call.type$ -- 33
-change.case$ -- 25
+            941 strings with 13855 characters,
+and the built_in function-call counts, 13427 in all, are:
+= -- 1168
+> -- 467
+< -- 11
++ -- 187
+- -- 140
+* -- 833
+:= -- 1776
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 39
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 312
-empty$ -- 1083
-format.name$ -- 123
-if$ -- 2377
+cite$ -- 64
+duplicate$ -- 478
+empty$ -- 1615
+format.name$ -- 173
+if$ -- 3566
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 33
-newline$ -- 114
-num.names$ -- 29
-pop$ -- 263
+int.to.str$ -- 47
+missing$ -- 47
+newline$ -- 157
+num.names$ -- 43
+pop$ -- 375
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 628
+skip$ -- 946
 stack$ -- 0
-substring$ -- 328
-swap$ -- 65
-text.length$ -- 6
+substring$ -- 541
+swap$ -- 113
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 58
-width$ -- 35
-write$ -- 259
-(There were 14 warnings)
+warning$ -- 17
+while$ -- 93
+width$ -- 49
+write$ -- 376
+(There were 17 warnings)
