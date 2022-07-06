@@ -229,4 +229,63 @@ H.~V. Jagadish, J.~Gehrke, A.~Labrinidis, Y.~Papakonstantinou, J.~M. Patel,
   R.~Ramakrishnan, C.~Shahabi, Big data and its technical challenges,
   Communications of the ACM 57~(7) (2014) 86--94.
 
+\bibitem{akhtar2019big}
+P.~Akhtar, J.~G. Frynas, K.~Mellahi, S.~Ullah, Big data-savvy teams’ skills,
+  big data-driven actions and business performance, British Journal of
+  Management 30~(2) (2019) 252--271.
+
+\bibitem{Nadal}
+S.~Nadal, V.~Herrero, O.~Romero, A.~Abelló, X.~Franch, S.~Vansummeren,
+  D.~Valerio, A software reference architecture for semantic-aware big data
+  systems, Information and software technology 90 (2017) 75--92.
+
+\bibitem{pineiro2019big}
+C.~Pi{\~n}eiro, J.~Morales, M.~Rodr{\'\i}guez, M.~Aparicio, E.~G. Manzanilla,
+  Y.~Koketsu, Big (pig) data and the internet of the swine things: a new
+  paradigm in the industry, Animal frontiers 9~(2) (2019) 6--15.
+
+\bibitem{rahimi2010distributed}
+S.~K. Rahimi, F.~S. Haug, Distributed database management systems: A Practical
+  Approach, John Wiley \& Sons, 2010.
+
+\bibitem{galster2011empirically}
+M.~Galster, P.~Avgeriou, Empirically-grounded reference architectures: a
+  proposal, in: Proceedings of the joint ACM SIGSOFT conference--QoSA and ACM
+  SIGSOFT symposium--ISARCS on Quality of software architectures--QoSA and
+  architecting critical systems--ISARCS, 2011, pp. 153--158.
+
+\bibitem{angelov2012framework}
+S.~Angelov, P.~Grefen, D.~Greefhorst, A framework for analysis and design of
+  software reference architectures, Information and Software Technology 54~(4)
+  (2012) 417--431.
+
+\bibitem{volk2019decision}
+M.~Volk, S.~Bosse, D.~Bischoff, K.~Turowski, Decision-support for selecting big
+  data reference architectures, in: International Conference on Business
+  Information Systems, Springer, 2019, pp. 3--17.
+
+\bibitem{Iso}
+I.~Iso, Iec25010: 2011 systems and software engineering–systems and software
+  quality requirements and evaluation (square)–system and software quality
+  models, International Organization for Standardization 34 (2011) 2910.
+
+\bibitem{ISO42010}
+I.~International Organization~for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
+  (2017).
+\newline\urlprefix\url{https://www.iso.org/standard/50508.html}
+
+\bibitem{josey2016introduction}
+A.~Josey, M.~Lankhorst, I.~Band, H.~Jonkers, D.~Quartel, An introduction to the
+  archimate{\textregistered} 3.0 specification, White Paper from The Open Group
+  (2016).
+
+\bibitem{zhu2005software}
+H.~Zhu, Software design methodology: From principles to architectural styles,
+  Elsevier, 2005.
+
+\bibitem{hevner2004design}
+A.~R. Hevner, S.~T. March, J.~Park, S.~Ram, Design science in information
+  systems research, MIS quarterly (2004) 75--105.
+
 \end{thebibliography}

@@ -22,45 +22,45 @@ Warning--empty journal in lofland1971analyzing
 Warning--empty year in Klein
 Warning--empty institution in Chang
 Warning--empty journal in chen2017big
-You've used 47 entries,
+You've used 59 entries,
             2952 wiz_defined-function locations,
-            941 strings with 13855 characters,
-and the built_in function-call counts, 13427 in all, are:
-= -- 1168
-> -- 467
-< -- 11
-+ -- 187
-- -- 140
-* -- 833
-:= -- 1776
-add.period$ -- 47
-call.type$ -- 47
-change.case$ -- 39
+            1004 strings with 16132 characters,
+and the built_in function-call counts, 16926 in all, are:
+= -- 1477
+> -- 599
+< -- 13
++ -- 239
+- -- 180
+* -- 1055
+:= -- 2245
+add.period$ -- 59
+call.type$ -- 59
+change.case$ -- 49
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 478
-empty$ -- 1615
-format.name$ -- 173
-if$ -- 3566
+cite$ -- 76
+duplicate$ -- 592
+empty$ -- 2029
+format.name$ -- 222
+if$ -- 4487
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 47
-newline$ -- 157
-num.names$ -- 43
-pop$ -- 375
+int.to.str$ -- 59
+missing$ -- 60
+newline$ -- 194
+num.names$ -- 55
+pop$ -- 467
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 946
+skip$ -- 1183
 stack$ -- 0
-substring$ -- 541
-swap$ -- 113
-text.length$ -- 11
+substring$ -- 707
+swap$ -- 136
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 17
-while$ -- 93
-width$ -- 49
-write$ -- 376
+while$ -- 121
+width$ -- 61
+write$ -- 471
 (There were 17 warnings)
