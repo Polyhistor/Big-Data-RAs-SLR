@@ -288,4 +288,43 @@ H.~Zhu, Software design methodology: From principles to architectural styles,
 A.~R. Hevner, S.~T. March, J.~Park, S.~Ram, Design science in information
   systems research, MIS quarterly (2004) 75--105.
 
+\bibitem{Maier}
+M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference
+  architecture, University of Eindhoven (2013).
+
+\bibitem{Bengtsson}
+P.~Bengtsson, N.~Lassing, J.~Bosch, H.~van Vliet, Architecture-level
+  modifiability analysis (alma), Journal of Systems and Software 69~(1-2)
+  (2004) 129--147.
+
+\bibitem{kazman1994saam}
+R.~Kazman, L.~Bass, G.~Abowd, M.~Webb, Saam: A method for analyzing the
+  properties of software architectures, in: Proceedings of 16th International
+  Conference on Software Engineering, IEEE, 1994, pp. 81--90.
+
+\bibitem{KazmanATAM}
+R.~Kazman, M.~Klein, M.~Barbacci, T.~Longstaff, H.~Lipson, J.~Carriere, The
+  architecture tradeoff analysis method, in: Proceedings. Fourth IEEE
+  International Conference on Engineering of Complex Computer Systems (Cat. No.
+  98EX193), IEEE, pp. 68--78.
+
+\bibitem{Williams}
+L.~G. Williams, C.~U. Smith, Pasasm: a method for the performance assessment of
+  software architectures, in: Proceedings of the 3rd international workshop on
+  Software and performance, pp. 179--189.
+
+\bibitem{bosch2000design}
+J.~Bosch, Design and use of software architectures: adopting and evolving a
+  product-line approach, Pearson Education, 2000.
+
+\bibitem{avgeriou2003describing}
+P.~Avgeriou, Describing, instantiating and evaluating a reference architecture:
+  A case study, Enterprise Architecture Journal 342 (2003) 1--24.
+
+\bibitem{derras2018reference}
+M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
+  Reference architecture design: a practical approach, in: 13th International
+  Conference on Software Technologies (ICSOFT), SciTePress-Science and
+  Technology Publications, 2018, pp. 633--640.
+
 \end{thebibliography}

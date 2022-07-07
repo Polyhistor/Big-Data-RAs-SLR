@@ -320,9 +320,18 @@ Surprisingly, based on the evidence gained from this SLR, most researchers and p
 Lastly, Hevner's information systems research framework (\cite{hevner2004design}) has been used for the development of RA presented by Geerdink (\cite{geerdink2013reference}), which is a suitable research design, since a BD RA is an information system artefact based on existing literature and business needs. 
 
 \section{Challenges of creating BD RAs}
-% Most literature selected were within the years 2016-2021 as they provided with most recent and relevant information. Howbeit, some studies dating back to 2010 have been included to provide fundamental knowledge regarding big data systems, reference architectures and architecture evaluation.
 
-% After the initial search, it becomes apparent that AISeL and Elsevier are good sources for good quality big data literature, whereas MIS Quarterly provided with the highest quality of Information Systems (IS) research.
+Among the challenges of developing RAs, perhaps evaluation is the most significant \cite{Maier}. According to Galster and Avgeriou (\cite{galster2011empirically}), two fundamental pillars of the evaluation is the correctness and the utility of the RA and how efficiently it can be adapted and instantiated. 
+
+RAs and concrete architectures come with a different level of abstraction and have divergent qualities. Whereas there are many well-established evaluation methods for concrete architectures such as Architecture Level Modifiability Analysis (\cite{Bengtsson}), Scenario-based Architecture Analysis Method (\cite{kazman1994saam}), Architecture Trade-off Analysis Method (\cite{KazmanATAM}), and Performance Assessment of Software Architecture (\cite{Williams}), none of these can really be directly applied to RAs. 
+
+For instance, ATAM is reliant on participation of stakeholders in early stages for creation of utility tree, and RAs, being highly abstract, do not have a clear group of stakeholders at that stage. In addition, many of evaluation methodologies listed make use of scenarios, whereas RAs are highly abstract and are potentially adopted for various contexts, therefore making scenario creation difficult and sometimes invalid. Either a few general scenarios are developed to cover all aspects, or a large number of specific scenarios are developed to cover various aspects of the RA. Each of which can pose threats to validity.
+
+Based on three problems discussed above, available methods of architecture analysis are not sufficient for evaluating RAs. Various researched tried to address this problem. In one Angelov et al (\cite{angelov2008towards}) modified ATAM and extended it to resonate well with RAs. This process took place by invitation of representatives from leading industries for the evaluation process, and the selection of various contexts and defined scenarios for these contexts. ATAM was extended to evaluate completeness, buildability and applicability. Howbeit the selection of the right candidate and involving them in the process is a daunting task and unfeasible at times.
+
+In Another study by Maier et al. (\cite{Maier}) as a postgraduate thesis in Eindhoven University of Technology, the evaluation of the RA has been conducted by mapping it against existing reference and concrete architectures described in industrial whitepapers and reports. Along the lines, Galster and Avgeriou (\cite{galster2011empirically}) suggested reference implementations, prototyping and incremental approach for the validation of the RA.
+
+By the virtue of the findings from this SLR, and by studying the approaches from Bosch (\cite{bosch2000design}), Avgeriou (\cite{avgeriou2003describing}), and Derras et al (\cite{derras2018reference}), an evaluation framework for a RA can be done through architectural prototype evaluation, which means a concrete architecture of the RA is generated and then evaluated through a well-grounded method such as ATAM.
 
 \section{Improvements}
 
