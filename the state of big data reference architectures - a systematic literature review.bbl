@@ -327,4 +327,30 @@ M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
   Conference on Software Technologies (ICSOFT), SciTePress-Science and
   Technology Publications, 2018, pp. 633--640.
 
+\bibitem{viana2014proposal}
+P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
+  archiving, preservation, and retrieval of big data, in: 2014 IEEE 13th
+  International Conference on Trust, Security and Privacy in Computing and
+  Communications, IEEE, 2014, pp. 622--629.
+
+\bibitem{kreps2014questioning}
+J.~Kreps,
+  \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning
+  the lambda architecture}, Online article, July 205 (2014).
+\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
+
+\bibitem{demchenko2014defining}
+Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
+  big data ecosystem, in: 2014 International conference on collaboration
+  technologies and systems (CTS), IEEE, 2014, pp. 104--112.
+
+\bibitem{ghandour2015big}
+A.~Ghandour, Big data driven e-commerce architecture, International Journal of
+  Economics, Commerce and Management 3~(5) (2015) 940--947.
+
+\bibitem{paakkonen2015reference}
+P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification
+  of technologies, products and services for big data systems, Big data
+  research 2~(4) (2015) 166--186.
+
 \end{thebibliography}
