@@ -471,4 +471,21 @@ M.~Babar, M.~U. Tariq, M.~D. Alshehri, F.~Ullah, M.~I. Uddin, Smart
   iot-enabled environment, Sustainable Computing: Informatics and Systems 35
   (2022) 100719.
 
+\bibitem{House}
+\href{https://obamawhitehouse.archives.gov/blog/2012/03/29/big-data-big-deal}{Big
+  data is a big deal}.
+\newline\urlprefix\url{https://obamawhitehouse.archives.gov/blog/2012/03/29/big-data-big-deal}
+
+\bibitem{chang2015nist}
+W.~L. Chang, N.~Grady, et~al., Nist big data interoperability framework: volume
+  1, big data definitions (2015).
+
+\bibitem{framework2015draft}
+D.~N. B. D.~I. Framework, Draft nist big data interoperability framework:
+  Volume 5, architectures white paper survey, NIST Special Publication (2015).
+
+\bibitem{weyrich2015reference}
+M.~Weyrich, C.~Ebert, Reference architectures for the internet of things, IEEE
+  Software 33~(1) (2015) 112--116.
+
 \end{thebibliography}

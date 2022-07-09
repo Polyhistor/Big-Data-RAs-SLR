@@ -27,45 +27,47 @@ Warning--empty year in Williams
 Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
 Warning--empty chapter and pages in Kohler
-You've used 95 entries,
+Warning--empty year in House
+Warning--empty journal in chang2015nist
+You've used 99 entries,
             2952 wiz_defined-function locations,
-            1194 strings with 22909 characters,
-and the built_in function-call counts, 28895 in all, are:
-= -- 2608
-> -- 929
+            1211 strings with 23443 characters,
+and the built_in function-call counts, 29763 in all, are:
+= -- 2685
+> -- 951
 < -- 29
-+ -- 373
-- -- 278
-* -- 1758
-:= -- 3745
-add.period$ -- 95
-call.type$ -- 95
-change.case$ -- 82
++ -- 383
+- -- 284
+* -- 1805
+:= -- 3862
+add.period$ -- 99
+call.type$ -- 99
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 1048
-empty$ -- 3473
-format.name$ -- 345
-if$ -- 7719
+cite$ -- 123
+duplicate$ -- 1079
+empty$ -- 3585
+format.name$ -- 353
+if$ -- 7954
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 97
-newline$ -- 306
-num.names$ -- 90
-pop$ -- 763
+int.to.str$ -- 99
+missing$ -- 100
+newline$ -- 319
+num.names$ -- 93
+pop$ -- 790
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2042
+skip$ -- 2108
 stack$ -- 0
-substring$ -- 1383
-swap$ -- 285
+substring$ -- 1408
+swap$ -- 289
 text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 217
-width$ -- 97
-write$ -- 774
-(There were 22 warnings)
+warning$ -- 24
+while$ -- 222
+width$ -- 101
+write$ -- 803
+(There were 24 warnings)
