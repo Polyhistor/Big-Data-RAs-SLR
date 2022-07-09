@@ -327,6 +327,26 @@ M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
   Conference on Software Technologies (ICSOFT), SciTePress-Science and
   Technology Publications, 2018, pp. 633--640.
 
+\bibitem{kiran2015lambda}
+M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for
+  cost-effective batch and speed big data processing, in: 2015 IEEE
+  International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
+
+\bibitem{quintero2019ibm}
+D.~Quintero, F.~N. Lee, et~al., IBM reference architecture for high performance
+  data and AI in healthcare and life sciences, IBM Redbooks, 2019.
+
+\bibitem{levin2013big}
+B.~Levin, Big data ecosystem reference architecture, Microsoft Corporation
+  (2013).
+
+\bibitem{cackett2013information}
+D.~Cackett,
+  \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information
+  management and big data, a reference architecture}, Oracle: Redwood City, CA,
+  USA (2013).
+\newline\urlprefix\url{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}
+
 \bibitem{viana2014proposal}
 P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
   archiving, preservation, and retrieval of big data, in: 2014 IEEE 13th
@@ -344,6 +364,11 @@ Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
   big data ecosystem, in: 2014 International conference on collaboration
   technologies and systems (CTS), IEEE, 2014, pp. 104--112.
 
+\bibitem{SikoraWohlfeld2014}
+W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating
+  secondary genome analysis using intel big data reference architecture., Intel
+  (09 2014).
+
 \bibitem{ghandour2015big}
 A.~Ghandour, Big data driven e-commerce architecture, International Journal of
   Economics, Commerce and Management 3~(5) (2015) 940--947.
@@ -352,5 +377,98 @@ A.~Ghandour, Big data driven e-commerce architecture, International Journal of
 P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification
   of technologies, products and services for big data systems, Big data
   research 2~(4) (2015) 166--186.
+
+\bibitem{sang2016reference}
+G.~M. Sang, L.~Xu, P.~De~Vrieze, A reference architecture for big data systems,
+  in: 2016 10th International Conference on Software, Knowledge, Information
+  Management \& Applications (SKIMA), IEEE, 2016, pp. 370--375.
+
+\bibitem{SAPRA}
+\href{https://www.scribd.com/document/418835912/Whitepaper-NEC-SAPHANA-Hadoop}{Sap
+  - nec reference architecture for sap hana \& hadoop} (2016).
+\newline\urlprefix\url{https://www.scribd.com/document/418835912/Whitepaper-NEC-SAPHANA-Hadoop}
+
+\bibitem{bilal2016big}
+M.~Bilal, L.~O. Oyedele, O.~O. Akinade, S.~O. Ajayi, H.~A. Alaka, H.~A.
+  Owolabi, J.~Qadir, M.~Pasha, S.~A. Bello, Big data architecture for
+  construction waste analytics (cwa): A conceptual framework, Journal of
+  Building Engineering 6 (2016) 144--156.
+
+\bibitem{cuzzocrea2016reference}
+A.~Cuzzocrea, A reference architecture for supporting secure big data analytics
+  over cloud-enabled relational databases, in: 2016 IEEE 40th Annual Computer
+  Software and Applications Conference (COMPSAC), Vol.~2, IEEE, 2016, pp.
+  356--358.
+
+\bibitem{heilig2017managing}
+L.~Heilig, S.~Vo{\ss}, Managing cloud-based big data platforms: a reference
+  architecture and cost perspective, in: Big data management, Springer, 2017,
+  pp. 29--45.
+
+\bibitem{suthakar2017scalable}
+U.~Suthakar, A scalable data store and analytic platform for real-time
+  monitoring of data-intensive scientific infrastructure, Ph.D. thesis, Brunel
+  University London (2017).
+
+\bibitem{sang2017simplifying}
+G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a
+  reference architecture, in: Working Conference on Virtual Enterprises,
+  Springer, 2017, pp. 242--249.
+
+\bibitem{Kohler}
+J.~Kohler, T.~Specht, Towards a Secure, Distributed, and Reliable Cloud-Based
+  Reference Architecture for Big Data in Smart Cities, IGI Global, 2019, pp.
+  38--70.
+
+\bibitem{unal2019reference}
+P.~{\"U}nal, Reference architectures and standards for the internet of things
+  and big data in smart manufacturing, in: 2019 7th International Conference on
+  Future Internet of Things and Cloud (FiCloud), IEEE, 2019, pp. 243--250.
+
+\bibitem{wang2019integrated}
+S.~Wang, Y.~Zhong, E.~Wang, An integrated gis platform architecture for
+  spatiotemporal big data, Future Generation Computer Systems 94 (2019)
+  160--172.
+
+\bibitem{ullah2019architectural}
+F.~Ullah, M.~A. Babar, Architectural tactics for big data cybersecurity
+  analytics systems: a review, Journal of Systems and Software 151 (2019)
+  81--118.
+
+\bibitem{alam2020video}
+A.~Alam, I.~Ullah, Y.-K. Lee, Video big data analytics in the cloud: A
+  reference architecture, survey, opportunities, and open research issues, IEEE
+  Access 8 (2020) 152377--152422.
+
+\bibitem{paakkonen2020extending}
+P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Extending reference architecture of big
+  data systems towards machine learning in edge computing environments, Journal
+  of Big Data 7~(1) (2020) 1--29.
+
+\bibitem{iglesias2020big}
+C.~A. Iglesias, A.~Favenza, {\'A}.~Carrera, A big data reference architecture
+  for emergency management, Information 11~(12) (2020) 569.
+
+\bibitem{castellanos2021smart}
+C.~Castellanos, B.~Perez, D.~Correal, Smart transportation: A reference
+  architecture for big data analytics, in: Smart Cities: A Data Analytics
+  Perspective, Springer, 2021, pp. 161--179.
+
+\bibitem{ISO20547}
+I.~O. for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/71275.html}{Iso/iec tr 20547-1:2020}
+  (2020).
+\newline\urlprefix\url{https://www.iso.org/standard/71275.html}
+
+\bibitem{maamouri2021phi}
+A.~Maamouri, L.~Sfaxi, R.~Robbana, Phi: A generic microservices-based big data
+  architecture, in: European, Mediterranean, and Middle Eastern Conference on
+  Information Systems, Springer, 2021, pp. 3--16.
+
+\bibitem{babar2022smart}
+M.~Babar, M.~U. Tariq, M.~D. Alshehri, F.~Ullah, M.~I. Uddin, Smart
+  teledentistry healthcare architecture for medical big data analysis using
+  iot-enabled environment, Sustainable Computing: Informatics and Systems 35
+  (2022) 100719.
 
 \end{thebibliography}
