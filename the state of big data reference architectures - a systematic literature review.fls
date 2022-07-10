@@ -38,6 +38,8 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Information an
 INPUT D:\MikTex\tex\latex\natbib\natbib.sty
 INPUT D:\MikTex\tex\latex\natbib\natbib.sty
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Information and software technology\the state of big data reference architectures - a systematic literature review.spl
+INPUT D:\MikTex\tex\latex\graphics\lscape.sty
+INPUT D:\MikTex\tex\latex\graphics\lscape.sty
 INPUT D:\MikTex\tex\latex\lineno\lineno.sty
 INPUT D:\MikTex\tex\latex\lineno\lineno.sty
 INPUT D:\MikTex\tex\latex\hyperref\hyperref.sty

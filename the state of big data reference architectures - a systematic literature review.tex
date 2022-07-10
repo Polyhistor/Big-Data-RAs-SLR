@@ -1,5 +1,6 @@
 \documentclass[review]{elsarticle}
 
+\usepackage{lscape}
 \usepackage{lineno,hyperref,longtable}
 \modulolinenumbers[5]
 
@@ -415,7 +416,8 @@ As a result of this SLR and to answer RQ3, 35 BD RA has been found, among which 
     \hline
     s35 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
     \hline
-
+    \caption{BD RAs}
+    \label{table:bdRAs}
 \end{longtable}
 
 Within the past years, there has been a considerable attention to the BD domain, and in specific BD system development. For instance, in March 2012, White House announced an initiative for BD research and development \cite{House}. The goal of this initiative was to accelerate the speed of science and engineering discovery, to improve national security, and to improve the knowledge extraction from large and complicated sets of data \cite{chang2015nist}. This project has been supported by six federal departments and has been given more than \$200 million USD with the goal of substantial progress in the tools and techniques to handle big data.
@@ -431,6 +433,43 @@ In the realm of academia, there has been numerous efforts including a postgradua
 Last but not least, there has been numerous reference architectures developed recently for specific domains. These studies have been usually published as short journal papers, and many have promised future publication of the full reference architecture as a book. For instance, Klein et al. (\cite{Klein}) developed a BD Ra in the national security domain, and Weyrich and Ebert (\cite{weyrich2015reference}) worked on a BD RA in the domain of internet of things (IOT). 
 
 Through the process of literature review for this SLR, scarcity of big data reference architectures has been witnessed. The studies listed above are prominent research, with great potential to induce concrete architectures. But with all, they are mostly published as short journals and provide with little information about architectural qualities, metadata management, and security, privacy concerns. In another terms, they are notion or brief discussions on reference architectures in very particular domains.
+
+\section{What are major architectural components of BD RAs? }
+
+To address RQ5, RAs listed in \ref{table:bdRAs} was reviewed and compared to deduce common architectural components of BD RAs. Some of the RAs collected were in in the form of a short paper and provided with not much detail, whereas some of the other such as NIST were quite comprehensive. 
+
+Majority of RAs have been inspired or based on other RAs, and this signified the notion that “RAs can be perceived more effective when they are created out of available knowledge, studied domain, and existing RAs rather than from scratch”.
+
+
+---- draft
+
+
+\begin{table}[h]
+    \begin{tabular}{ |c|c|c| }
+        \hline
+        RA & Components & Description/Limitations \\ 
+        \hline
+        S1 & Streaming layer, batch layer, serving layer & to handle both real-time and batch data  \\ One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, does not  \\
+        \hline
+        % \hline
+    \end{tabular}
+    \end{table}
+
+
+% \begin{landscape}
+% \begin{table}[h]
+% \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c|c }
+%     \hline
+%     RA & Volume & Variety & Velocity & Metadata Management & Data quality & Data variability & Maintainability & security \& privacy  \\ 
+%     \hline
+%     % S1 & Streaming layer, batch layer, serving layer & to handle both real-time and batch data  \\ One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, does not  \\
+%     S1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1  \\
+%     \hline
+%     % \hline
+% \end{tabular}
+% \end{table}
+% \end{landscape}
+
 
 \section{Improvements}
 
