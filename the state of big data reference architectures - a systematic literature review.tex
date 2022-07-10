@@ -336,7 +336,7 @@ By the virtue of the findings from this SLR, and by studying the approaches from
 
 \section{What are current BD RAs available in academia and industry?}
 
-As a result of this SLR and to answer RQ3, 35 BD RA has been found, among which 18 RAS are from academia, 4 from practice, and one through the collaboration of academia and practice. These are described further in Table 1.
+As a result of this SLR and to answer RQ3, 36 BD RA has been found, among which 28 RAS are from academia, 8 from practice, and one through the collaboration of academia and practice. These are described further in Table 1.
 
 \begin{longtable}{ |p{0.5cm}|p{6.5cm}|p{1.5cm}|p{0.8cm}| }
     \hline
@@ -414,7 +414,9 @@ As a result of this SLR and to answer RQ3, 35 BD RA has been found, among which 
     \hline
     s34 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
     \hline
-    s35 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
+    s35 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
+    \hline
+    s36 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
     \hline
     \caption{BD RAs}
     \label{table:bdRAs}
@@ -444,12 +446,32 @@ Majority of RAs have been inspired or based on other RAs, and this signified the
 ---- draft
 
 
-\begin{table}[h]
-    \begin{tabular}{ |c|c|c| }
+\begin{table}[h!]
+    \begin{tabular}{ |p{0.5cm}|p{3cm}|p{7.5cm}| }
         \hline
         RA & Components & Description/Limitations \\ 
         \hline
-        S1 & Streaming layer, batch layer, serving layer & to handle both real-time and batch data  \\ One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, does not  \\
+        S1 & Streaming layer, batch layer, serving layer & One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, seem to be hitting the bare minimum requirement of BD systems  \\
+        \hline
+        S2 & Applicatons, Frameworks and platforms, Software defined infrastructure, Compute and storage servers & This RA is specifically designed for the domain of healthcare and life sciences, does not seem to cover data quality, is overly abstract, resembles to n-tier architectures, and pivotes on IBM specific softwares such as LSF process manager, LSF application center, and LSF data manager. \\
+        \hline
+        S2 & Applicatons, Frameworks and platforms, Software defined infrastructure, Compute and storage servers & This RA is specifically designed for the domain of healthcare and life sciences, does not seem to cover data quality, is overly abstract, resembles to n-tier architectures, and pivotes on IBM specific softwares such as LSF process manager, LSF application center, and LSF data manager. \\
+        \hline
+        S3 & Data sources, Data transformation, Data usage & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce and seems to revolve around it, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Tez and Spark.  \\
+        \hline
+        S3 & Data sources, Data transformation, Data usage & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce and seems to revolve around it, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Tez and Spark.  \\
+        \hline
+        S4 & Data sources, Data Integration, Information Management, Information Access & A classically designed RA with 3 main phases of ingestion, processing and providing. This RA has underlying mechanisms that facilitates 'right-time' flow of data through the system. This is achieved by having two architectural constructs for strongly typed data and weakly typed data. While this was annotated as the data quality part of the RA, it does not seem to account for data ownership and changes in data landscape. In addition, this RA utilizes data mart for access and performance, whi can affect the overall modifiability negatively.   \\
+        \hline
+        S5 & Data sources, Data Acquisition and Recording, Information Extraction and Cleaning, Data Integration, Aggregation and Representation, Query Processing, Data Modeling and Analysis, Interpretation & This RA the augmentation of traditional data warehouse architectures with a few new components to account for stream processing. The RA defines three kind of storage, data warehouse, sandbox and raw data archive that communicate with each other through data load components. There seems to be many moving parts in this RA, and privacy and metadata is clearly addressed. Nevertheles, the RA is lacking in the area of security, data provenance, scalability and modifiability. We can't tell how data ownership is place, and how data quality is addressed. It's also driven mostly by traditional warehouse way of thinking, like staging environments and data marts.  \\
+        \hline
+        S6 & Import Engine, Processing Engine, Management Engine, Analytics Engine, Visualisation Engine & This RA seems to be portraying the bare minimum requirements for big data analytics with no mention of security, privacy, metadata, or data quality. The RA is published as a short paper, so many details are missing. \\
+        \hline
+        S7 & Big Data Layer, Archive Layer, Storage Layer, Presentation Layer & This RA provides with bare minimum components for data analytics, without any clear delineation on stream processing. The RA seems to be done in quite a reductionist manner, with no attention to privacy, security, metadata, and data quality. Data storage seems to be only associated to hardware, and thus it's unclear how data is evolved and scaled.  \\
+        \hline
+        S8 & Data Source, Real-Time Layer, Serving Layer  & Kappa is perhaps the predecessor of Lambda, aiming to address some of the limitations of it. The major different between Kappa and Lambda is that Kappa has a unified processing layer for batch and stream process, which eliminates the complexity of maintaining two separate systems, reduces costs, and can potentially increase data quality. Nevertheless, this architecture, does not discuss metadata, security, privacy, data quality, and maintainability in details.  \\
+        \hline
+        S9 & Data Source, Real-Time Layer, Serving Layer  & Kappa is perhaps the predecessor of Lambda, aiming to address some of the limitations of it. The major different between Kappa and Lambda is that Kappa has a unified processing layer for batch and stream process, which eliminates the complexity of maintaining two separate systems, reduces costs, and can potentially increase data quality. Nevertheless, this architecture, does not discuss metadata, security, privacy, data quality, and maintainability in details.  \\
         \hline
         % \hline
     \end{tabular}

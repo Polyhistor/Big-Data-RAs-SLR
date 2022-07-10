@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -464,6 +464,16 @@ I.~O. for Standardization~(ISO/IEC),
 A.~Maamouri, L.~Sfaxi, R.~Robbana, Phi: A generic microservices-based big data
   architecture, in: European, Mediterranean, and Middle Eastern Conference on
   Information Systems, Springer, 2021, pp. 3--16.
+
+\bibitem{AtaeiApsec}
+P.~Ataei, A.~Litchfield,
+  \href{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}{Neomycelia:
+  A software reference architecturefor big data systems}, in: 2021 28th
+  Asia-Pacific Software Engineering Conference (APSEC), IEEE Computer Society,
+  Los Alamitos, CA, USA, 2021, pp. 452--462.
+\newblock \href {https://doi.org/10.1109/APSEC53868.2021.00052}
+  {\path{doi:10.1109/APSEC53868.2021.00052}}.
+\newline\urlprefix\url{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}
 
 \bibitem{babar2022smart}
 M.~Babar, M.~U. Tariq, M.~D. Alshehri, F.~Ullah, M.~I. Uddin, Smart
