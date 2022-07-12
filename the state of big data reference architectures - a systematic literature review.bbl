@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -359,19 +359,10 @@ J.~Kreps,
   the lambda architecture}, Online article, July 205 (2014).
 \newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
 
-\bibitem{demchenko2014defining}
-Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
-  big data ecosystem, in: 2014 International conference on collaboration
-  technologies and systems (CTS), IEEE, 2014, pp. 104--112.
-
 \bibitem{SikoraWohlfeld2014}
 W.~Sikora-Wohlfeld, A.~Basu, A.~Butte, M.~Martinez-Canales, Accelerating
   secondary genome analysis using intel big data reference architecture., Intel
   (09 2014).
-
-\bibitem{ghandour2015big}
-A.~Ghandour, Big data driven e-commerce architecture, International Journal of
-  Economics, Commerce and Management 3~(5) (2015) 940--947.
 
 \bibitem{paakkonen2015reference}
 P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification
