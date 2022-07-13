@@ -369,11 +369,6 @@ P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification
   of technologies, products and services for big data systems, Big data
   research 2~(4) (2015) 166--186.
 
-\bibitem{sang2016reference}
-G.~M. Sang, L.~Xu, P.~De~Vrieze, A reference architecture for big data systems,
-  in: 2016 10th International Conference on Software, Knowledge, Information
-  Management \& Applications (SKIMA), IEEE, 2016, pp. 370--375.
-
 \bibitem{SAPRA}
 \href{https://www.scribd.com/document/418835912/Whitepaper-NEC-SAPHANA-Hadoop}{Sap
   - nec reference architecture for sap hana \& hadoop} (2016).
@@ -385,21 +380,10 @@ M.~Bilal, L.~O. Oyedele, O.~O. Akinade, S.~O. Ajayi, H.~A. Alaka, H.~A.
   construction waste analytics (cwa): A conceptual framework, Journal of
   Building Engineering 6 (2016) 144--156.
 
-\bibitem{cuzzocrea2016reference}
-A.~Cuzzocrea, A reference architecture for supporting secure big data analytics
-  over cloud-enabled relational databases, in: 2016 IEEE 40th Annual Computer
-  Software and Applications Conference (COMPSAC), Vol.~2, IEEE, 2016, pp.
-  356--358.
-
 \bibitem{heilig2017managing}
 L.~Heilig, S.~Vo{\ss}, Managing cloud-based big data platforms: a reference
   architecture and cost perspective, in: Big data management, Springer, 2017,
   pp. 29--45.
-
-\bibitem{suthakar2017scalable}
-U.~Suthakar, A scalable data store and analytic platform for real-time
-  monitoring of data-intensive scientific infrastructure, Ph.D. thesis, Brunel
-  University London (2017).
 
 \bibitem{sang2017simplifying}
 G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a
@@ -480,6 +464,11 @@ M.~Babar, M.~U. Tariq, M.~D. Alshehri, F.~Ullah, M.~I. Uddin, Smart
 \bibitem{chang2015nist}
 W.~L. Chang, N.~Grady, et~al., Nist big data interoperability framework: volume
   1, big data definitions (2015).
+
+\bibitem{suthakar2017scalable}
+U.~Suthakar, A scalable data store and analytic platform for real-time
+  monitoring of data-intensive scientific infrastructure, Ph.D. thesis, Brunel
+  University London (2017).
 
 \bibitem{framework2015draft}
 D.~N. B. D.~I. Framework, Draft nist big data interoperability framework:
