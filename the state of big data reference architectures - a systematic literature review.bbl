@@ -390,31 +390,6 @@ G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a
   reference architecture, in: Working Conference on Virtual Enterprises,
   Springer, 2017, pp. 242--249.
 
-\bibitem{Kohler}
-J.~Kohler, T.~Specht, Towards a Secure, Distributed, and Reliable Cloud-Based
-  Reference Architecture for Big Data in Smart Cities, IGI Global, 2019, pp.
-  38--70.
-
-\bibitem{unal2019reference}
-P.~{\"U}nal, Reference architectures and standards for the internet of things
-  and big data in smart manufacturing, in: 2019 7th International Conference on
-  Future Internet of Things and Cloud (FiCloud), IEEE, 2019, pp. 243--250.
-
-\bibitem{wang2019integrated}
-S.~Wang, Y.~Zhong, E.~Wang, An integrated gis platform architecture for
-  spatiotemporal big data, Future Generation Computer Systems 94 (2019)
-  160--172.
-
-\bibitem{ullah2019architectural}
-F.~Ullah, M.~A. Babar, Architectural tactics for big data cybersecurity
-  analytics systems: a review, Journal of Systems and Software 151 (2019)
-  81--118.
-
-\bibitem{alam2020video}
-A.~Alam, I.~Ullah, Y.-K. Lee, Video big data analytics in the cloud: A
-  reference architecture, survey, opportunities, and open research issues, IEEE
-  Access 8 (2020) 152377--152422.
-
 \bibitem{paakkonen2020extending}
 P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Extending reference architecture of big
   data systems towards machine learning in edge computing environments, Journal

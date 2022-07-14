@@ -376,33 +376,19 @@ As a result of this SLR and to answer RQ3, 36 BD RA has been found, among which 
     \hline
     s17 & NIST Big Data interoperability framework (\cite{Chang}) & Practice  &  2018  \\
     \hline
-    s18 & Towards a secure, distributed, and reliable cloud-based reference architecture for Big Data in smart cities (\cite{Kohler})  & Academia & 2019   \\
+    s24 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending})  & Academia & 2020   \\
     \hline
-    s19 & Reference Architectures and Standards for the Internet of Things and Big Data in Smart Manufacturing (\cite{unal2019reference})  & Academia &  2019   \\
+    s25 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big})  & Academia & 2020   \\
     \hline
-    s20 & Reference Architectures and Standards for the Internet of Things and Big Data in Smart Manufacturing (\cite{unal2019reference})  & Academia & 2019   \\
+    s26 & Smart Transportation: A Reference Architecture for Big Data Analytics (\cite{castellanos2021smart})  & Academia & 2020   \\
     \hline
-    s21 & An integrated GIS platform architecture for spatiotemporal big data (\cite{wang2019integrated})  & Academia & 2019   \\
+    s27 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
     \hline
-    s22 & Developing a government enterprise architecture framework to support the requirements of big and open linked data with the use of cloud computing (\cite{wang2019integrated})  & Academia & 2019   \\
+    s28 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
     \hline
-    s23 & Architectural Tactics for Big Data Cybersecurity Analytics Systems: A Review (\cite{ullah2019architectural})  & Academia & 2019   \\
+    s29 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
     \hline
-    s24 & Video Big Data Analytics in the Cloud: A Reference Architecture, Survey, Opportunities, and Open Research Issues (\cite{alam2020video})  & Academia & 2020   \\
-    \hline
-    s25 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending})  & Academia & 2020   \\
-    \hline
-    s26 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big})  & Academia & 2020   \\
-    \hline
-    s27 & Smart Transportation: A Reference Architecture for Big Data Analytics (\cite{castellanos2021smart})  & Academia & 2020   \\
-    \hline
-    s28 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
-    \hline
-    s29 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
-    \hline
-    s30 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
-    \hline
-    s31 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
+    s30 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
     \hline
     \caption{BD RAs}
     \label{table:bdRAs}
@@ -468,7 +454,15 @@ Majority of RAs have been inspired or based on other RAs, and this signified the
         \hline
         S16 & Data Source, Data Integration, Data Analysis and Aggregation, Interface/Visualization & This RA clearly segregates stream data from other data, and defines clear interfaces for ingestion of different data types. It then passes the data directly to a distributed storage (Hadoop's HDFS), and retrieves it later for deduplication and cleaning. While the RA seems to have addressed the minimum requirements of data anlytics, it does not seem to address cross-cutting concerns such as metadata, security and privacy. It is also unclear on how data quality is achieved. \\
         \hline
-        S17 & Data Source, Data Integration, Data Analysis and Aggregation, Interface/Visualization & This RA clearly segregates stream data from other data, and defines clear interfaces for ingestion of different data types. It then passes the data directly to a distributed storage (Hadoop's HDFS), and retrieves it later for deduplication and cleaning. While the RA seems to have addressed the minimum requirements of data anlytics, it does not seem to address cross-cutting concerns such as metadata, security and privacy. It is also unclear on how data quality is achieved. \\
+        S17 & Data Provider, System Orcehstrator, Big Data Application Provider, Big Data Framework Provider, Security and Privacy Fabric, Management Fabric, Data Consumer & This is perhaps the most comprehensive BD RA found in this SLR, and has been heavily funded by the government of the USA. While this RA is a good tool to facilitate open discussion, design structures, requirements, and operations inherent in BD, it is more of a high-level conceptual model of BD, rather than an effective BD RA. Some of the limitations witnessed in this RA is in its brief mention of metadata management (only discussed in lifecycle management), unclear approaches to attain data quality and data ownership, and potential monolithic coupling of components in big data application provider. \\
+        \hline
+        S18 & Data Sources, Data Extraction, Data Loading and Preprocessing, Data Processing, Data Storage, Model Development and Interface, Data Transformation and Serving, Interacing and Visualization & This RA segregates data extraction and data loading phases, and tend to adopt the idea of segregating stream and batch processing layers. Nevertheless, we could not find the identitifaction of cross-cutting concerncs such privacy, security or metadata management. We could not understand how data quality is achieved. There are also three storage designed, but seems like all data will eventually be stored in one giant storage. This poses a threat and create a bottleneck. \\
+        \hline
+        S18 & Data Sources, Data Extraction, Data Loading and Preprocessing, Data Processing, Data Storage, Model Development and Interface, Data Transformation and Serving, Interacing and Visualization & This RA segregates data extraction and data loading phases, and tend to adopt the idea of segregating stream and batch processing layers. Nevertheless, we could not find the identitifaction of cross-cutting concerncs such privacy, security or metadata management. We could not understand how data quality is achieved. There are also three storage designed, but seems like all data will eventually be stored in one giant storage. This poses a threat and create a bottleneck. \\
+        \hline
+        S19 & Data Provider, Big Data Application Provider, Big Data Framework Provider, System Orchestrator, Management Fabric, Security and Privacy Fabric, Data Consumer & Driven from the NIST BD RA, this RA is more ore less identical with BD RA, but tailored specifically for emergency management. We skip explanation for this RA, as the limitations discussed for NIST BD RA, can be applied to this one as well. \\
+        \hline
+        S20 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer & Driven from the NIST BD RA, this RA is more ore less identical with BD RA, but tailored specifically for emergency management. We skip explanation for this RA, as the limitations discussed for NIST BD RA, can be applied to this one as well. \\
         \hline
         % S? & Data sources, Data transformation, Data usage & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce and seems to revolve around it, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Tez and Spark.  \\
         % \hline
