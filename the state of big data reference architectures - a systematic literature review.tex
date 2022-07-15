@@ -376,19 +376,19 @@ As a result of this SLR and to answer RQ3, 36 BD RA has been found, among which 
     \hline
     s17 & NIST Big Data interoperability framework (\cite{Chang}) & Practice  &  2018  \\
     \hline
-    s24 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending})  & Academia & 2020   \\
+    s18 & Extending reference architecture of big data systems towards machine learning in edge computing environments (\cite{paakkonen2020extending})  & Academia & 2020   \\
     \hline
-    s25 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big})  & Academia & 2020   \\
+    s19 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big})  & Academia & 2020   \\
     \hline
-    s26 & Smart Transportation: A Reference Architecture for Big Data Analytics (\cite{castellanos2021smart})  & Academia & 2020   \\
+    s20 & Smart Transportation: A Reference Architecture for Big Data Analytics (\cite{castellanos2021smart})  & Academia & 2020   \\
     \hline
-    s27 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
+    s21 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
     \hline
-    s28 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
+    s22 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
     \hline
-    s29 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
+    s23 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
     \hline
-    s30 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
+    s24 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
     \hline
     \caption{BD RAs}
     \label{table:bdRAs}
@@ -464,8 +464,12 @@ Majority of RAs have been inspired or based on other RAs, and this signified the
         \hline
         S20 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer & Driven from the NIST BD RA, this RA is more ore less identical with BD RA, but tailored specifically for emergency management. We skip explanation for this RA, as the limitations discussed for NIST BD RA, can be applied to this one as well. \\
         \hline
-        % S? & Data sources, Data transformation, Data usage & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce and seems to revolve around it, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Tez and Spark.  \\
-        % \hline
+        S21 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer & This RA shares all the fundamental components with BD RA, and seems to be very similar. However, the phrase fabrics seesm to be changed to multi-layer functions. Therefore this RA, just like NIST is too abstract and leaves many architectural decisions unknown such as data storage, data quality assurance, and data ownership. It is unclear on how storage should be approached, and the overal structure resembles to a monolithic data pipeline architecture. \\
+        \hline
+        S22 & Acquisition Layer, Refinment Layer, Scrutiny Layer, Training Layer, Insight Layer & One of the few RAs that tend to absorb the concept of microservices into BD development. Nevertheless, the RA seems to be driven by the idea of one data lake for all data storage, which can be a daunting task to scale and maintain. The concept of metadata does not seem to be discussed, and other concerns such as security, privacy, data quality and data provenance are unclear.  \\
+        \hline
+        S23 & Gateway, Stream Processing Service Mesh, Stream Processing Controller, Monitoring, Service Discovery, Query Controller, Batch Processing Controller, Batch Processing Service Mesh, Event Backbone, Data Lake, Query Engine, Event Archive, Semantic Layer, Control Tower, MicroService, Sidecar, Event Queue & This RA absorbs a lot of patterns from microservices event driven architectures and reactive systems and tend to absorb them into the BD development. While there's been a clear attention to cross-cutting concerns such as metadata, and privacy, security does not seem to be well discussed in the study. The RA also tends to use data lake as the single source of storage which can be challenging to scale.  \\
+        \hline
     \end{tabular}
     \end{table}
 
