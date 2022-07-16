@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Why reference architectures?}{}% 2
+\BOOKMARK [1][-]{section.3}{State of the art}{}% 3
+\BOOKMARK [1][-]{section.4}{Review Methodology:}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Identification}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Screening and Eligibility}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Data Extraction and Synthesis}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Findings}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{What are the fundamental concepts of RAs?}{section.5}% 9
+\BOOKMARK [1][-]{section.6}{How can RAs help BD system development? }{}% 10
+\BOOKMARK [1][-]{section.7}{What are some common approaches to creating BD RAs?}{}% 11
+\BOOKMARK [1][-]{section.8}{Challenges of creating BD RAs}{}% 12
+\BOOKMARK [1][-]{section.9}{What are current BD RAs available in academia and industry?}{}% 13
+\BOOKMARK [1][-]{section.10}{What are major architectural components of BD RAs? }{}% 14
+\BOOKMARK [2][-]{subsection.10.1}{BD Management and Storage}{section.10}% 15
+\BOOKMARK [2][-]{subsection.10.2}{Data Processing and Application Interfaces}{section.10}% 16
+\BOOKMARK [2][-]{subsection.10.3}{BD Infrastructure}{section.10}% 17
+\BOOKMARK [1][-]{section.11}{Improvements}{}% 18
