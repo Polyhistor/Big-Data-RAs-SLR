@@ -524,19 +524,17 @@ Moreover, we realized two category of data processing. First category utilizes t
 
 BD interfaces are communicated in two different ways, either the RA only presented a 'serving or access layer' (S21, S17), or several components that are each specific to a different requirement (ML, BI, etc). The latter can be witnessed in S16.
 
-% Therefore, batch processing, stream processing and data pipelines are considered major architectural components.
+\subsection{BD Infrastructure}
 
-% \subsection{BD Infrastructure}
+BD infrastructure provides BD systems with services or resources required to ingest, store, and analyze data. There are many technologies that can be utilized for BD infrastructures, and many harnesses to power of cloud services such as AWS EC2. For instance, one major component of a NIST BD RA is called big data framework provider which includes ‘computing and analytics’, ‘data organization and distribution’, and ‘infrastructures such as networking, computing and storage’.  
 
-% BD infrastructure provides BD systems with services or resources required to ingest, store, and analyze data. There are many technologies that can be utilized for BD infrastructures, and many harnesses to power of cloud services such as AWS EC2. For instance, one major component of a NIST BD RA is called big data framework provider which includes ‘computing and analytics’, ‘data organization and distribution’, and ‘infrastructures such as networking, computing and storage’.  
+Despite the former two major components, BD infrastructure is more of a layer than a component. A layer in which the RA lays out a possible computing and networking design of a BD system. This is crucial, as practitioners of BD have been commonly architecting underlying distributed paradigms and horizontal scaling. 
 
-% Despite the former two major components, BD infrastructure is more of a layer than a component. A layer in which the RA lays out a possible computing and networking design of a BD system. This is crucial, as practitioners of BD have been commonly architecting underlying distributed paradigms and horizontal scaling. In recent years, the advent of web 3.0 and micro-services architecture, have shifted the overall paradigm of software engineering and data engineering towards decentralization and distribution (Gan et al., 2019). 
+Therefore, CAP theorem, ACID and BASE transactions, data consistency, service discovery, and tail latency are potential architectural challenges one should consider. Should a BD system adopt an event-driven approach through an event backbone such as Kafka? Or should it stick to REST based communication. What is the overhead of context switch and networking in the case of RPCs among services?  
 
-% Therefore, CAP theorem, ACID and BASE transactions, data consistency, service discovery, and tail latency are potential architectural challenges one should consider. Should a BD system adopt an event-driven approach through an event backbone such as Kafka? Or should it stick to REST based communication. What is the overhead of context switch and networking in the case of RPCs among services?  
+All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We decided to present this as layer as it’s play an important role in creation and design of an RA. Therefore, we consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature. 
 
-% All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We decided to present this as layer as it’s play an important role in creation and design of an RA. Therefore, we consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature. 
-
-% Lastly, our findings depicts the fact that many of RA presented are not designed underlying completely distributed architecture while BD systems can benefit from this paradigm (Klimentov et al., 2015; Mazumder, Bhadoria, & Deka, 2017).
+Lastly, our findings depicts the fact that many of RA presented are not designed underlying completely distributed architecture while BD systems can benefit from this paradigm.
 
 
 
