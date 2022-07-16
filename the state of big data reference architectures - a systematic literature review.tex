@@ -504,17 +504,25 @@ Based on the results of this synthesis, we posit that BD RAs are driven by three
 
 The first paradigm revolves around large monolithic enterprise data warehouses, with ETLs, staging environments and a data processing pipeline. A good example of the first paradigm is S5. The second paradigm is about monolithic data lakes with data with similar data processing pipelines happening at a different stage. A good example of the second paradigm is S22. The third paradigm is not that far away from the second, but aims to incorporate more elements of distributed systems. A good example of this paradigm is the S8.
 
-Some RAs sit at a higher level of abstraction. A good example is S21. For this kind of RAs, one cannot assume the nature of the pipelines and if the storage would be monolithic or not. In S21, there's a depiction of various kinds of storage in the 'Big Data Platform Layer', indicating that one may choose to opt in for polyglot persistance. 
+Some RAs sit at a higher level of abstraction. A good example is S21. For these kind of RAs, one cannot assume the nature of the pipelines and if the storage would be monolithic or not. In S21, there's a depiction of various kinds of storage in the 'Big Data Platform Layer', indicating that one may choose to opt in for polyglot persistance. 
 
-% \subsection{Data Processing and Application Interfaces}
+When it comes to big data management, many of the cross-cutting concerns seems to be overlooked. For instance, we have realized that many BD RAs do not pay a clear attention to privacy, metadata management and data quality. While some RAs tend to revolve around security such as S13, and some other tend to revolve around metadata management such as S15, we could not find a comprehensive explication of big data management. 
 
-% The result of this SLR shed lights on two major data processing activities that a BD system encompasses. These processes generally fall into stream processing and batch processing. Stream processing or fast processing is required for sensitive operations and time critical processes such as checking a fraudulent credit card, and batch processing required for a long-running continuum of data analysis such as regression analysis. 
+We could not understand how some of the RAs could account for data source proliferation and how rapidly they could react to regional data privacy changes. 
 
-% The decision on required type of processing for a context-specific architecture is determined by the characteristics of the data being analyzed, that is primarily variety, volume and velocity (Chang & Boyd, 2018). 
+\subsection{Data Processing and Application Interfaces}
 
-% For instance, most algorithms for stream processing are using in-memory stateful data structures such Hyperloglog to compute values in real-time (Sahal, Breslin, & Ali, 2020). A streaming component can be tailored to adopt specific windowing approaches such as tuple-at-a-time and a micro-batch processing. When in fact, these techniques are not required for batch processing. An architect may opt for MapReduce and Bulk Synchronous Parallel (BSM) processing for batch-oriented requirements or go for a streaming processing based on a specific performance requirement set to handle velocity and volume of data. 
+There are two major data processing activities that a BD system encompasses. These processes generally fall into stream processing and batch processing. Stream processing or fast processing is required for sensitive operations and time critical processes such as checking a fraudulent credit card, and batch processing required for a long-running continuum of data analysis such as regression analysis. 
 
-% Moreover, every BD RA analyzed provided the notion of data pipelines, even when the exact phrase wasn’t used. This is due to the fact that in BD systems, data usually goes through several phases before it’s ready for statistical analysis (Geerdink, 2013). This is quite evident when it comes to Lambda (Hausenblas & Bijnens, 2015) and Bolster architectures (Nadal et al., 2017), where data goes through either batch ingestion or stream ingestion components, gets dispatched to the data lake, gets into batch or streaming processing component, gets into batch or real-time views and from there on into the query engine and finally the data analyst. In fact, Bolster is an extension of Lambda, with further improvement on metadata management.
+The decision on required type of processing for a context-specific architecture is determined by the characteristics of the data being analyzed, that is primarily variety, volume and velocity. 
+
+For instance, most algorithms for stream processing are using in-memory stateful data structures such Hyperloglog to compute values in real-time. A streaming component can be tailored to adopt specific windowing approaches such as tuple-at-a-time and a micro-batch processing. When in fact, these techniques are not required for batch processing. An architect may opt for MapReduce and Bulk Synchronous Parallel (BSM) processing for batch-oriented requirements or go for a streaming processing based on a specific performance requirement set to handle velocity and volume of data. 
+
+Various studies have provided different level of abstraction when it comes to describing data processing. While some studies like S19 describe the processes in the data processing pipeline, some others like s15 have just abstracted it to 'batch processing' or 'stream processing'. 
+
+Moreover, we realized two category of data processing. First category utilizes two different architectural constructs for batch and stream processing, while the latter tends to process both in one architectural component. This is a difference that can be seen between Lambda and Kappa, and the RAs that have been derived from the two. Some RAs such as S17 have used three architectural constructs, namely batch, streaming and interactive. 
+
+BD interfaces are communicated in two different ways, either the RA only presented a 'serving or access layer' (S21, S17), or several components that are each specific to a different requirement (ML, BI, etc). The latter can be witnessed in S16.
 
 % Therefore, batch processing, stream processing and data pipelines are considered major architectural components.
 

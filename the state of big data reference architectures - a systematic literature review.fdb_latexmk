@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex the state of big data reference architectures - a systematic literature review"] 1657962148 "the state of big data reference architectures - a systematic literature review.aux" "the state of big data reference architectures - a systematic literature review.bbl" "the state of big data reference architectures - a systematic literature review" 1657962190
+["bibtex the state of big data reference architectures - a systematic literature review"] 1657964864 "the state of big data reference architectures - a systematic literature review.aux" "the state of big data reference architectures - a systematic literature review.bbl" "the state of big data reference architectures - a systematic literature review" 1657964866
   "D:/MikTex/bibtex/bst/elsarticle/elsarticle-num.bst" 1606127368 29462 43db4fe246825ec69ed81b2463c17f04 ""
   "mybibfile.bib" 1657960883 76321 65ef7658cb65e38f8b0feb7af2b2bcdd ""
-  "the state of big data reference architectures - a systematic literature review.aux" 1657962180 11097 362e80357024fc5434ccf4e89015a066 "pdflatex"
+  "the state of big data reference architectures - a systematic literature review.aux" 1657964866 11249 baeb00a9ef4b9262cabe4c8aa4800b0a "pdflatex"
   (generated)
-  "the state of big data reference architectures - a systematic literature review.blg"
   "the state of big data reference architectures - a systematic literature review.bbl"
-["pdflatex"] 1657962179 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.pdf" "the state of big data reference architectures - a systematic literature review" 1657962190
+  "the state of big data reference architectures - a systematic literature review.blg"
+["pdflatex"] 1657964864 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.pdf" "the state of big data reference architectures - a systematic literature review" 1657964866
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1590990996 11548 e44175093b45ca6e570e355bbd17abed ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1643599542 10002696 7a3616ce906e4689083dab4d83aaed18 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1654162620 204453 3dc7e5691a328fc3e08e548d955d1d79 ""
@@ -83,19 +83,19 @@
   "D:/MikTex/tex/latex/url/url.sty" 1388486852 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Media/databases-statitistic-[Recovered].png" 1656918210 218443 2249ab341cea47f55163448f971bfa7d ""
   "PRISMA/PRISMA_Flow_Diagram.pdf" 1656920929 153112 195cdae8b11a1c61277bce195069e7d3 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.aux" 1657962180 11097 362e80357024fc5434ccf4e89015a066 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex" 1657962188 84752 19302627c61b8abc60f1bedc4e5b4ddc ""
-  "the state of big data reference architectures - a systematic literature review.aux" 1657962180 11097 362e80357024fc5434ccf4e89015a066 "pdflatex"
-  "the state of big data reference architectures - a systematic literature review.bbl" 1657962148 20712 91f21232566a2df2ecf5cfcdc84ee81f "bibtex the state of big data reference architectures - a systematic literature review"
-  "the state of big data reference architectures - a systematic literature review.out" 1657962180 1100 d48fbe6c2e030694f02e199950f0d46a "pdflatex"
-  "the state of big data reference architectures - a systematic literature review.spl" 1657962179 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "the state of big data reference architectures - a systematic literature review.tex" 1657962188 84752 19302627c61b8abc60f1bedc4e5b4ddc ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.aux" 1657964866 11249 baeb00a9ef4b9262cabe4c8aa4800b0a ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex" 1657964861 85473 8b3d08f9fad5d7aedcadf80442a8d4e0 ""
+  "the state of big data reference architectures - a systematic literature review.aux" 1657964866 11249 baeb00a9ef4b9262cabe4c8aa4800b0a "pdflatex"
+  "the state of big data reference architectures - a systematic literature review.bbl" 1657964864 20712 91f21232566a2df2ecf5cfcdc84ee81f "bibtex the state of big data reference architectures - a systematic literature review"
+  "the state of big data reference architectures - a systematic literature review.out" 1657964866 1194 8e5ab534b683c26e06428f00922ad400 "pdflatex"
+  "the state of big data reference architectures - a systematic literature review.spl" 1657964865 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "the state of big data reference architectures - a systematic literature review.tex" 1657964861 85473 8b3d08f9fad5d7aedcadf80442a8d4e0 ""
   "wordcloud.png" 1657947183 204060 3b8db398613c2c9b55b53a5eb0c99b80 ""
   (generated)
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.log"
+  "the state of big data reference architectures - a systematic literature review.out"
+  "the state of big data reference architectures - a systematic literature review.aux"
   "the state of big data reference architectures - a systematic literature review.spl"
   "the state of big data reference architectures - a systematic literature review.pdf"
-  "the state of big data reference architectures - a systematic literature review.aux"
-  "the state of big data reference architectures - a systematic literature review.log"
-  "the state of big data reference architectures - a systematic literature review.out"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.pdf"
+  "the state of big data reference architectures - a systematic literature review.log"
