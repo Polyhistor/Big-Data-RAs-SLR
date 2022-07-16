@@ -474,13 +474,63 @@ To answer this question in a systematic manner, and as a result of our data extr
 
 Different studies have chosen different phrases to describe their architectural components, and there seems to be no standard way of modeling BD RAs. The usage of architectural definition languages such as Archimate is scarce, and most studies have used boxes and lines with specifically defined ontologies. This made understanding and comparison of these RAs a difficult task that requires constant translation from one ontology to another. 
 
-Initially we've done an automated text analysis on these components' names to try to highlight commonalities and word usage. The word cloud of these components are portrated in \ref{}
+Initially we've done an automated text analysis on these components' names to try to highlight commonalities and word usage. The word cloud of these components are portrayed in \ref{image:word-cloud}
 
 \begin{figure}
     \includegraphics[width=12cm]{wordcloud.png}
+    \caption{BD RA Component Names Word Cloud}
+    \Ref{image:word-cloud}
 \end{figure}
 
-To achieve this, we paid clear attention to the description of these components and categorized them based on their functions.
+Among the names authors used to name their components, 'big data application provider' seems to have been used the most (5 occurrences), and 'big data framework provider' the next (3 occurrences). This is due to the fact  that a few of the RAs are built upon NIST BD RA, and have therefore adopted the terminology. One term that all studies seems to have been using uniformly is 'data consumer' and 'data provider'. Moreover, most studies have chosen the phrase 'layer' to logically group different components of the RA.
+
+To achieve this, we paid clear attention to the description of these components and categorized them based on their functions. These categories are; 1) BD Management and Storage, 2) Data Processing and Application Interfaces, 3) BD Infrastructure.
+
+\subsection{BD Management and Storage}
+
+One of the prominent characteristics of big data is ‘variety’, which rises the need for distinct storage solutions. This is sometimes referred to as ‘polyglot persistence’ \cite{khine2019review}. For instance, when it comes to dynamic data, NoSQL databases such as MongoDB is a suitable choice because of their non-tabular nature (Banker, Garrett, Bakkum, \& Verch, 2016), and when there is a need for complex relationship between entities, graph databases such as Neo4J are more suitable because of their tree traversal performance (Van Bruggen, 2014). 
+
+Choosing the right database or databases, is an important architectural decision that can also include patterns for data access, storage and caching. For example, the practitioners of distributed system that are specialized in micro-services architecture may opt to use Command Query Responsibility Segregation (CQRS) pattern for high performance applications \cite{marquez2018actual}. Therefore, the type of storage and the access pattern are two major architectural components of big data systems. 
+
+The current landscape of BD RAs seems to revolve around monolithic storage solutions such as data warehouse and data lake. While the traditional practice of staging data, dimensional modeling, storage in data warehouses, and data marts as customized access layers, may seem ineffective in handling BD loads, we've been surprised to still witness some variations of this approach being proposed.  
+
+Another architectural component that is popular in BD RAs is data lake. Data lake can be perceived as an ingestion framework that can be given various types of data including internal and external data. The data stored in the data lake is then usually retrieved for transformation. This is the LET (load, extract, transform) approach, comparting to old ETL (extract, transform, load) approaches. 
+
+Similar to the way that Business Intelligence (BI) and BD differ in their source data types both in terms of granularity and data structure of it, a data lake and data warehouse are different. In the case of a data warehouse, usually a relational database is used which decreases flexibility when it comes to analysis and can potentially cause considerable costs. In the case of data lake, data of different kind can be stored without the engineer needing to define the schema in advance. This increases the flexibility.
+
+Howbeit, this flexibility itself has its own downside and can be abused by data engineers. One can throw different data sets without much regard at all for how they’re structured, which leads to what people refer to as data swamp. Data governance can alleviate some of these issues \cite{monolithToMesh}.
+
+Based on the results of this synthesis, we posit that BD RAs are driven by three main paradigms; 1) Enterprise data warehouse paradigm, 2) data lake paradigm, and 3) cloud based paradigm. 
+
+The first paradigm revolves around large monolithic enterprise data warehouses, with ETLs, staging environments and a data processing pipeline. A good example of the first paradigm is S5. The second paradigm is about monolithic data lakes with data with similar data processing pipelines happening at a different stage. A good example of the second paradigm is S22. The third paradigm is not that far away from the second, but aims to incorporate more elements of distributed systems. A good example of this paradigm is the S8.
+
+Some RAs sit at a higher level of abstraction. A good example is S21. For this kind of RAs, one cannot assume the nature of the pipelines and if the storage would be monolithic or not. In S21, there's a depiction of various kinds of storage in the 'Big Data Platform Layer', indicating that one may choose to opt in for polyglot persistance. 
+
+% \subsection{Data Processing and Application Interfaces}
+
+% The result of this SLR shed lights on two major data processing activities that a BD system encompasses. These processes generally fall into stream processing and batch processing. Stream processing or fast processing is required for sensitive operations and time critical processes such as checking a fraudulent credit card, and batch processing required for a long-running continuum of data analysis such as regression analysis. 
+
+% The decision on required type of processing for a context-specific architecture is determined by the characteristics of the data being analyzed, that is primarily variety, volume and velocity (Chang & Boyd, 2018). 
+
+% For instance, most algorithms for stream processing are using in-memory stateful data structures such Hyperloglog to compute values in real-time (Sahal, Breslin, & Ali, 2020). A streaming component can be tailored to adopt specific windowing approaches such as tuple-at-a-time and a micro-batch processing. When in fact, these techniques are not required for batch processing. An architect may opt for MapReduce and Bulk Synchronous Parallel (BSM) processing for batch-oriented requirements or go for a streaming processing based on a specific performance requirement set to handle velocity and volume of data. 
+
+% Moreover, every BD RA analyzed provided the notion of data pipelines, even when the exact phrase wasn’t used. This is due to the fact that in BD systems, data usually goes through several phases before it’s ready for statistical analysis (Geerdink, 2013). This is quite evident when it comes to Lambda (Hausenblas & Bijnens, 2015) and Bolster architectures (Nadal et al., 2017), where data goes through either batch ingestion or stream ingestion components, gets dispatched to the data lake, gets into batch or streaming processing component, gets into batch or real-time views and from there on into the query engine and finally the data analyst. In fact, Bolster is an extension of Lambda, with further improvement on metadata management.
+
+% Therefore, batch processing, stream processing and data pipelines are considered major architectural components.
+
+% \subsection{BD Infrastructure}
+
+% BD infrastructure provides BD systems with services or resources required to ingest, store, and analyze data. There are many technologies that can be utilized for BD infrastructures, and many harnesses to power of cloud services such as AWS EC2. For instance, one major component of a NIST BD RA is called big data framework provider which includes ‘computing and analytics’, ‘data organization and distribution’, and ‘infrastructures such as networking, computing and storage’.  
+
+% Despite the former two major components, BD infrastructure is more of a layer than a component. A layer in which the RA lays out a possible computing and networking design of a BD system. This is crucial, as practitioners of BD have been commonly architecting underlying distributed paradigms and horizontal scaling. In recent years, the advent of web 3.0 and micro-services architecture, have shifted the overall paradigm of software engineering and data engineering towards decentralization and distribution (Gan et al., 2019). 
+
+% Therefore, CAP theorem, ACID and BASE transactions, data consistency, service discovery, and tail latency are potential architectural challenges one should consider. Should a BD system adopt an event-driven approach through an event backbone such as Kafka? Or should it stick to REST based communication. What is the overhead of context switch and networking in the case of RPCs among services?  
+
+% All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We decided to present this as layer as it’s play an important role in creation and design of an RA. Therefore, we consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature. 
+
+% Lastly, our findings depicts the fact that many of RA presented are not designed underlying completely distributed architecture while BD systems can benefit from this paradigm (Klimentov et al., 2015; Mazumder, Bhadoria, & Deka, 2017).
+
+
 
 % \begin{longtable}{|p{0.5cm}|p{3cm}|p{7.5cm}|}
 %         \hline

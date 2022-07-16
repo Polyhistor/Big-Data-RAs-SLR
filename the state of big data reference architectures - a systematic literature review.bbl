@@ -453,4 +453,19 @@ D.~N. B. D.~I. Framework, Draft nist big data interoperability framework:
 M.~Weyrich, C.~Ebert, Reference architectures for the internet of things, IEEE
   Software 33~(1) (2015) 112--116.
 
+\bibitem{khine2019review}
+P.~P. Khine, Z.~Wang, A review of polyglot persistence in the big data world,
+  Information 10~(4) (2019) 141.
+
+\bibitem{marquez2018actual}
+G.~M{\'a}rquez, H.~Astudillo, Actual use of architectural patterns in
+  microservices-based open source projects, in: 2018 25th Asia-Pacific Software
+  Engineering Conference (APSEC), Ieee, 2018, pp. 31--40.
+
+\bibitem{monolithToMesh}
+Z.~Dehghani,
+  \href{https://martinfowler.com/articles/data-monolith-to-mesh.html}{How to
+  move beyond a monolithic data lake to a distributed data mesh} (2019).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-monolith-to-mesh.html}
+
 \end{thebibliography}
