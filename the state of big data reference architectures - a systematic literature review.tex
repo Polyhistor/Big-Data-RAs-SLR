@@ -632,35 +632,45 @@ Lastly, privacy and security does not seem to have been discussed enough, or it 
 
 Many of core architectural decisions revolving around security and privacy, if not addressed in an initial phase, can result in massive losses and potential bottlenecks. 
 
+\section{Discussion}
 
+In this section, we provide a summary of main findings and the potential implications for both industry and academia. 
 
+In this study, by adopting a rigorous research methodology, we aimed to understand the state of the art in BD RAs. To the best of our knowledge, there is no study in academia that has conducted a SLR on BD RAs, nor there is a systematic mapping study. While RAs can play a pivotal role in development and maintenance of BD systems, there does not seem to be enough attention on this topic. 
 
-% \begin{landscape}
-% \begin{table}[h]
-% \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c|c }
-%     \hline
-%     RA & Volume & Variety & Velocity & Metadata Management & Data quality & Data variability & Maintainability & security \& privacy  \\ 
-%     \hline
-%     % S1 & Streaming layer, batch layer, serving layer & to handle both real-time and batch data  \\ One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, does not  \\
-%     S1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1  \\
-%     \hline
-%     % \hline
-% \end{tabular}
-% \end{table}
-% \end{landscape}
+The closest study we could find to comparing and analysing BD architectures was the work of Volk et al (\cite{volk2019decision}), which does not revolve around BD RAs, but attempts to develop a decision support for selecting BD reference architectures. However, this study stays fairly light on BD architectures and does not aim to systematically collect them. NIST BD RA (S17) have collected a serious of white paper from the big data public working group, and used it as a foundation study. Howbeit, these white papers are not detailed BD RAs, and are rather concepts that different memebrs of the group have put together for the purposes of contrast and comparison. 
 
+Our findings from this study yielded the fact that progres is uneven in the are of BD RAs. While there are many researches in the area of data warehousing, artificial inteligence, data science, and IOT, data engineering seems to be needing more research. In addition, there are many well established approaches for crunching large volume of data and handling dimensionality of complex data sets, the overall organization of BD components, which is the architecture needs more attention from academia and industry. 
 
-% paper to read for threads for validity and discussion section: 
+Majortiy of the BD RAs that we have analyzed were running underlying some sort of a monolithic data pipeline with a central storage. This is a challenging architecture to scale and maintain. How does one takes preventive measures to stop a data lake from turning into a data swamp ? How a team of hyper-specialized siloed data engineers that are running the data pipelines, will be aware of the actual consumption of the data and therefore keep a certain level of quality. 
 
-% https://reader.elsevier.com/reader/sd/pii/S0950584920301993?token=6B8434EA9C8FDF34DC0D0EB2876E8BA51B4EB41B54457B5223EF30257822B5093606E4BB3A2AD64FB081CE76379EF50F&originRegion=us-east-1&originCreation=20220711083609
+If a software engineers decides to, for instance, manipulate a certain field in an entity's schema for the development of a new feature, how will this affect the data engineering process and how is this communicated?  Underlying this paradigm, as data becomes more and more available to the company, the ability to consume it all in one place becomes more dificult. 
 
-\section{Improvements}
+On the other hand, the current state of BD RAs do not seem to be very far away from traditional data warehousing approaches. In fact, some of them have adopted the idea of data marts and proposing as BD solution utilizing newer technologies. Moreover, some architectures have attempted to utilized data lake to serve data analysts and business inteligence. 
+
+Neither the attempt to on board BD analytics workloads to data warehouses, nor the attempt to serve business inteligence with data lakes is gonna result in a solid system. We therefore propose future research directions in the area of decentralised and distributed BD RAs. 
+
+We also felt that the quality of many of BD RAs published does not seems to be enough to meet the industrial expectations. This is due to the challenges of developing BD RAs and the cost and resources required to evaluate these artefacts. It is also worth mentioning that a rigorous methodology for evaluating reference architectures are quite rare, and while there are studies that have attempted to address these issues (\cite{angelov2008towards}), there is a need for more research in this area.
+
+Given all, we posit that RAs can be considered effective initial points to design and development of BD systems. These artefacts helps facilitating communication, capture requirements from various stakeholders, and catch design issues while they are still cheap. Based on this, therefore, more and more attention needs to be given to this area and its foundational methodological needs. 
+
+\section{Threats to Validity}
+
+Just like any rigorous SLR, and based on our research methodology, it is essential to conduct a 'threats to validity' assessment to transparently communicate any bias or flaws that research may suffer from. Therefore, the threats to validity for this study are as following;
 
 \begin{enumerate}
-    \item The findings yielded by investigating the research questions of this SLR should constitute many discussion points around the research and practice of BD systems. However, the manuscript is completely missing a discussion section. One should expect that the results of SLR can inform the current knowledge and provide several research directions for future research. 
-    \item Last, one of the core challenges with the paper is to situate it within an ongoing scholarly conversation. The authors currently reference a fairly diverse set of papers, but remain at a fairly abstract level when it comes to elaborating how your work builds upon and expands existing work. In turn, this makes it difficult to appreciate theoretical implications of your work. 
+    \item \emph{Construct Validty}: This SLR is as good as the quality of the evidence collected and the synthesis of it. Therefor we have taken extensive measures to maximize the rigour in this study. By following some of the most prominent guidelines for SLRs, and a few complementary studies for search strategy, inter-rate reliability, data synthesis, and quality assessment, we ensured that at every step we are removing bias, and increase transparency and systematicity of our study. We also opted for thematic synthesis, and followed a well established approach to create themes and models.
+    \item \emph{Internal Validty}: To avoid losing on valuable information, we augmented our SLR with grey literature, and used a rigorous method to incorporate those literature into the main pool of literature. We snowballed papers, looked for references, and even searched the works of well-known researchers in the field. 
+    \item \emph{Conclusion Validity}: One potential threat to validity might be that some of the studies we collected may not have been mature enough, and that in turn might have impacted the generalizability of conclusions. To mitigate this threat, we have deveoped a rigorous quality framework and assessed each pooled literature based on it. We made sure that this process is conducted by different individuals so to achieve the quality desired. 
 \end{enumerate}
- 
+
+\section{Conclusion}
+
+This study sought to find all BD RAs available in practice and academia. The findings gained emerges the understanding that RAs can be an effective artefact to tackle complex BD system development. RAs at their core bring software engineering knowledge as a collection of patterns designed to address a class of problems with attention to specific requirements and context and do solve many of the prevalent architectural challenges that an architect might face. 
+
+As data proliferates further, there will be more BD systems created which in turn means more technology orchestration is required around data that can be effectively done through a well-established RA. RAs guide the evolution of the system both in terms of functional and non-functional requirements, and pinpoint variability points that can result in more successful BD projects and avoidance of common pitfalls. 
+
+Withal, BD RAs have yet to mature and become ubiquitous in industry and there is further research required in this area. These researches can be done in the area of micro-services RA for BD systems, event-driven paradigms for BD systems, security and privacy issues in BD systems, and metadata management.
 
 \bibliography{mybibfile}
 
