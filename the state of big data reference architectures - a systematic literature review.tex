@@ -598,7 +598,29 @@ To answer the RQ3, RAS collected for this SLR have been appraised to point out l
         \label{table:BD-RAs-Limitations}
 \end{longtable}
 
-One of the limitations that we came across was that the concept of metadata has been poorly discussed. For instance, S5 discussed the limitation of metadata management systems, stating that most metadata solutions are ad-hoc. The researcher then went ahead and introduced a layer for metadata management in the RA, but as a non-integrated component. For instance, the author did not discuss how data provenance can be achieved through the RA and underlying which logical flow one can do linear analysis. 
+Except for one case (S22), all the architectures and RAs found as the result of this study, were designed underlying monolithic data pipeline architecture with four major components being data consumer, data processing, data infrastructure and data providers. To discuss the integral facets that embroil these architectures, one must
+look at the characteristics of these architectures and the ways in which they achieve their ends, with quality attributes surrounding it.
+
+The process of turning data into actionable insights in these architectures usually follow a similar lifecycle;
+
+\begin{enumerate}
+    \item \textbf{Data Ingestion}: system beings to ingest data from all corners of the enterprise, including both transactional, operational and external data.
+    \item \textbf{Data Transformation}: data captured from the previous step is then cleansed for duplication, quality, and potentially scrubbed for privacy policies. This data then goes through a multifaceted enrichment process to facilitate data analysis.
+    \item \textbf{Data Serving}: at this stage, data is ready to be served to diverse array of needs ranging from machine learning to marketing analytics, to business intelligence to product analysis and customer journey optimization.
+\end{enumerate}
+
+The lifecycle depicted is indeed a high-level abstract view of prevalent BD systems. Howbeit, it highlights an important matter; these systems are all operating underlying monolithic data pipeline architecture that tends to account for all sorts of data. This means, data that logically belong to different domains are now all lumped together and crunched in one architectural constructs, making maintainability and scalability a daunting task.
+
+
+While architectures in software engineering have gone through series of evolution in the industry, adopting a more decentralized and distributed approaches such as microservice architecture, event driven architectures, reactive systems, and domain driven design , the data engineering, and in specific BD ecosystems do not seem to be adopting many of these patterns. The whole idea of 'monolithic data
+pipeline architecture with no clearly defined domains and ownership' brings significant challenges to design, implementation, maintenance and scaling of BD systems.
+
+This architecture and design process if done underlying current prevalent approaches, can bring about colossal losses, and leave many managers disappointed.
+Nevertheless, we don't claim that all these architectures will fail, perhaps some have proven to be successful in a specific context. There are two threats to maintainability and scalability of these systems; 1) \emph{Data source proliferation}: as the BD system grows and more data
+sources are added, the ability to ingest, process, and harmonize all these data in one place diminishes, 2)\emph{Data consumer proliferation}: organizations that utilize rapid experimentation approaches such Hypothesis-Driven Development and Continuos Delivery constantly introduce new use cases for data to be consumed in different domains. This means that variability of the data rises, and the sum of aggregations, projections, and slices increases, which in turn adds more work to the backlog of the data team, slowing
+down the process of serving the data to consumers.
+
+Another limitation that we came across was that the concept of metadata has been poorly discussed. For instance, S5 discussed the limitation of metadata management systems, stating that most metadata solutions are ad-hoc. The researcher then went ahead and introduced a layer for metadata management in the RA, but as a non-integrated component. For instance, the author did not discuss how data provenance can be achieved through the RA and underlying which logical flow one can do linear analysis. 
 
 In another case, NIST BD RA only discusses metadata in a sentence, and in sub-activity named ‘metadata management’. The RA only states what are essential metadata information and how they are used. Except for S15 and S23, metadata has not been accentuated enough and metadata layer is not thoroughly discussed. This is a noticeable limitation in current BD RAs, as metadata plays an important role in BD systems, addressing wide range of challenges such as privacy, security, data provenance, and linear analysis. 
 
@@ -606,11 +628,9 @@ Based on that, one can argue that any BD system can benefit from a well-defined 
 
 Furthermore, white papers collected from IT giants tend to pivot the RA around their services, which can potentially reduce its applicability, hinder RAs openness, and even affect architectural qualities. In these white papers, alternative technologies or vendors are typically not discussed which leaves the architect with a small pool of options.
 
-Another limitation with current BD RAs is that they have not fully absorbed the advancements of software architecture and software engineering. While this is a factor of age in some of the RAs, some other for instance do not fully benefit from micro-services patterns, and container technologies such as Docker. Majority of RAs tend to be portrayed underlying old ‘monolithic’ structure which has been proven to be troublesome to maintain and scale in the long run. 
-
 Lastly, privacy and security does not seem to have been discussed enough, or it has been mostly marginalized. For instance, we have not found an architectural component that allows for data scrubbing, or we did not understand how one can achieve security in-between data pipelines. Specially, in regard to privacy and with recent global movements towards increased privacy, BD architects are now increasingly challenged to design underlying the shadow of regional data privacy policies. Placing this challenge next to security challenges of package management, endpoint proliferation and DDOS handling can further signify more research on BD RAs.
 
-Many of core architectural decisions revolving around security and privacy, if not addressed in an initial phase, can result in massive losses and potential bottlenecks.
+Many of core architectural decisions revolving around security and privacy, if not addressed in an initial phase, can result in massive losses and potential bottlenecks. 
 
 
 
@@ -637,7 +657,6 @@ Many of core architectural decisions revolving around security and privacy, if n
 \section{Improvements}
 
 \begin{enumerate}
-    \item The current writing style looks like a summary description, lacks new insight on the topic. The overall contribution needs to be enhanced.
     \item The findings yielded by investigating the research questions of this SLR should constitute many discussion points around the research and practice of BD systems. However, the manuscript is completely missing a discussion section. One should expect that the results of SLR can inform the current knowledge and provide several research directions for future research. 
     \item Last, one of the core challenges with the paper is to situate it within an ongoing scholarly conversation. The authors currently reference a fairly diverse set of papers, but remain at a fairly abstract level when it comes to elaborating how your work builds upon and expands existing work. In turn, this makes it difficult to appreciate theoretical implications of your work. 
 \end{enumerate}
