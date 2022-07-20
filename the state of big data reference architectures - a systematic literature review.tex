@@ -528,15 +528,17 @@ Some RAs tend to clearly distinguish to ingress and egress interfaces and inter-
 
 \subsection{BD Infrastructure}
 
-Another major area that is discussed in the RAs is the concept of infrastructure. Different authors have taken different approaches to communicate this. Some have presented it through a standard architectural description language such as S6, which clearly defines the technology layer, and some have not mentioned the concept of infrastructure, but it's rather implicitly conveyed such as S22 and S23. Some other have presented with both infrastructure and platform layer such as S21 and S17. 
+Another major area that is discussed in the RAs is the concept of infrastructure. Different authors have taken different approaches to communicate this. Some have presented it through a standard architectural description language such as s6, which clearly defines the technology layer, and some have not mentioned the concept of infrastructure, but it's rather implicitly conveyed such as s22 and s23. Some other have presented with both infrastructure and platform layers such as s21 and s17. 
 
-For instance, one major component of a NIST BD RA (S17) is called big data framework provider which includes ‘computing and analytics’, ‘data organization and distribution’, and ‘infrastructures such as networking, computing and storage’.  
+For instance, one major component of a NIST BD RA (s17) is called big data framework provider which includes ‘computing and analytics’, ‘data organization and distribution’, and ‘infrastructures such as networking, computing and storage’.  
 
-Despite the former two major components, BD infrastructure is more of a layer than a component. A layer in which the RA lays out a possible computing and networking design of a BD system. This is crucial, as practitioners of BD have been commonly architectonic underlying distributed paradigms and horizontal scaling. 
+ BD infrastructure is more of a layer than a component. A layer in which the RA lays out a possible computing and networking design of a BD system. This is crucial, as practitioners of BD have been commonly architecting underlying distributed paradigms and horizontal scaling. 
 
-Therefore, CAP theorem, ACID and BASE transactions, data consistency, service discovery, and tail latency are potential architectural challenges one should consider. Should a BD system adopt an event-driven approach through an event backbone such as Kafka that is discussed in S23? Or should it stick to REST based communication. What is the overhead of context switch and networking in the case of RPCs among services?  
+Therefore, CAP theorem, ACID and BASE transactions, data consistency, service discovery, and tail latency are potential architectural challenges one should consider. Should a BD system adopt an event-driven approach through an event backbone such as Kafka that is discussed in s23? Or should it stick to REST based communication. What is the overhead of context switch and networking in the case of RPCs among services?  
 
-All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature. 
+All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature.
+
+Another area of BD systems that is DataOps.
 
 Lastly, our findings depicts the fact that many of RA presented are not designed underlying completely distributed architecture while BD systems can benefit from this paradigm. An exception to this is S23, which is absorbing many patterns from event-driven microservices architecture.
 
