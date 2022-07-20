@@ -338,7 +338,7 @@ By the virtue of the findings from this SLR, and by studying the approaches from
 
 \section{What are current BD RAs available in academia and industry?}
 
-As a result of this SLR and to answer RQ1, 24 BD RA has been found, among which 16 RAS are from academia, 8 from practice. These are described further in Table 1.
+As a result of this SLR and to answer RQ1, 23 BD RA has been found, among which 15 RAS are from academia, 8 from practice. These RA are listed in Table 1.
 
 \begin{longtable}{ |p{0.5cm}|p{6.5cm}|p{1.5cm}|p{0.8cm}| }
     \hline
@@ -390,8 +390,6 @@ As a result of this SLR and to answer RQ1, 24 BD RA has been found, among which 
     \hline
     s23 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
     \hline
-    s24 & Smart teledentistry healthcare architecture for medical big data analysis using IoT-enabled environment (\cite{babar2022smart})  & Academia & 2022   \\
-    \hline
     \caption{BD RAs}
     \label{table:bdRAs}
 \end{longtable}
@@ -400,75 +398,75 @@ Within the past years, there has been a considerable attention to the BD domain,
 
 A year later, in June 2013, National Institute of Standards and Technology (NIST) Big Data Public Working Group (NBD-PWG) was launched with considerable participation from across the nation. Practitioners, researchers, agents, government representatives, and none-profit organizations joined in this momentum.
 
-One of the results of this project was NIST Big Data Reference Architecture (NBDRA). According to US Department of Defense, one of the main objectives of NBDRA was to provide with an authoritative source of information on big data that restraint and guides the overall practice. This is arguably one of the most comprehensive and recent RAs available on the fields of big data. NBDRA is made up of two fabrics encompassing five functional logical components connected by various interfaces, representing intertwined nature of security and privacy and management.
+One of the results of this project was NIST Big Data Reference Architecture (NBDRA). According to US Department of Defense, one of the main objectives of NBDRA was to provide with an authoritative source of information on big data that restraint and guides the overall practice. This is arguably one of the most comprehensive and recent RAs available in the fields of big data. NBDRA is made up of two fabrics encompassing five functional logical components connected by various interfaces, representing intertwined nature of security and privacy and management.
 
-Along the lines, other giant IT vendors published their own RAs for big data. In this SLR, 5 BD RA has been collected from the practice, and mostly through white papers. These white papers are from IBM, Microsoft, Oracle, SAP, and a conference in which Lambda was discussed. Among these RAs, arguably Lambda architecture is the most commonly discussed and studied. It is also worth mentioning that there has been other BD RAs found in practice, but they were rather too short or did not reflect the contemporary state of BD analytics and has been eliminated as described in the research methodology section.
+Along the lines, other giant IT vendors published their own RAs for big data. In this SLR, 8 BD RA has been collected from the practice, and mostly through white papers. These white papers are from IBM, Microsoft, Oracle, SAP, and a conference in which Lambda was discussed. Among these RAs, arguably Lambda architecture is the most commonly discussed and studied. It is also worth mentioning that there has been other BD RAs found in practice, but they were rather too short or did not reflect the contemporary state of BD analytics and has been eliminated as described in the research methodology section.
 
-In the realm of academia, there has been numerous efforts including a postgraduate master’s dissertation (\cite{Maier}) and PhD thesis (\cite{suthakar2017scalable}) for creating big data RAs. In addition, few universities have published their own RA. For instance, university of Amsterdam published the BD architecture framework \cite{framework2015draft}. 
+We are well aware that Lambda is presented as an architecture and not an RA, but we have grouped as an RA as it sits at an abstraction level of an RA.
+
+In the realm of academia, there has been numerous efforts including a postgraduate master’s dissertation (\cite{Maier}) and PhD thesis (\cite{suthakar2017scalable}) for creating big data RAs. In addition, few universities have published their own RA. For instance, university of Amsterdam published a BD architecture framework \cite{framework2015draft}. 
 
 Last but not least, there has been numerous reference architectures developed recently for specific domains. These studies have been usually published as short journal papers, and many have promised future publication of the full reference architecture as a book. For instance, Klein et al. (\cite{Klein}) developed a BD Ra in the national security domain, and Weyrich and Ebert (\cite{weyrich2015reference}) worked on a BD RA in the domain of internet of things (IOT). 
 
-Through the process of literature review for this SLR, scarcity of big data reference architectures has been witnessed. The studies listed above are prominent research, with great potential to induce concrete architectures. But with all, they are mostly published as short journals and provide with little information about architectural qualities, metadata management, and security, privacy concerns. In another terms, they are notion or brief discussions on reference architectures in very particular domains.
+Through the process of literature review for this SLR, scarcity of big data reference architectures has been witnessed. The studies listed above are prominent research, with great potential to induce concrete architectures. But with all, they are mostly published as short journals and provide with little information about quality attributes, data quality, metadata management, security, and privacy concerns. In another terms, they are notion or brief discussions on reference architectures in very particular domains.
 
 \section{What are major architectural components of BD RAs? }
 
-To address RQ5, RAs listed in \ref{table:bdRAs} was reviewed and compared to deduce common architectural components of BD RAs. Some of the RAs collected were in in the form of a short paper and provided with not much detail, whereas some of the other such as NIST were quite comprehensive. 
+To address RQ2, RAs listed in \ref{table:bdRAs} was reviewed and compared to highlight common architectural components of BD RAs. Some of the RAs collected were in in the form of a short paper and provided with not much detail, whereas some of the other such as NIST were quite comprehensive. 
 
-Majority of RAs have been inspired or based on other RAs, and this signified the notion that “RAs can be perceived more effective when they are created out of available knowledge, studied domain, and existing RAs rather than from scratch”.
+Majority of RAs have been inspired or based on other RAs, and this signified the notion that “RAs can be perceived more effective when they are created from the body of available knowledge rather than from scratch”.
 
-To answer this question in a systematic manner, and as a result of our data extraction, we listed all the components from all the BD RAs listed in the previous section. These components are described in \ref{Table:BD-RAs-Components}.
+To answer this question in a systematic manner, and as a result of our data extraction, we listed all the components from all the BD RAs listed in the previous section. These components are described in table \ref{Table:BD-RAs-Components}.
 
 \begin{longtable}{|p{0.5cm}|p{10cm}|}
         \hline
         RA & Components \\ 
         \hline
-        S1 & Streaming layer, batch layer, serving layer   \\
+        s1 & Streaming layer, batch layer, serving layer   \\
         \hline
-        S2 & Applicatons, Frameworks and platforms, Software defined infrastructure, Compute and storage servers  \\
+        s2 & Applicatons, Frameworks and platforms, Software defined infrastructure, Compute and storage servers  \\
         \hline
-        S3 & Data sources, Data transformation, Data usage  \\
+        s3 & Data sources, Data transformation, Data usage  \\
         \hline
-        S4 & Data sources, Data Integration, Information Management, Information Access \\
+        s4 & Data sources, Data Integration, Information Management, Information Access \\
         \hline
-        S5 & Data sources, Data Acquisition and Recording, Information Extraction and Cleaning, Data Integration, Aggregation and Representation, Query Processing, Data Modeling and Analysis, Interpretation  \\
+        s5 & Data sources, Data Acquisition and Recording, Information Extraction and Cleaning, Data Integration, Aggregation and Representation, Query Processing, Data Modeling and Analysis, Interpretation  \\
         \hline
-        S6 & Import Engine, Processing Engine, Management Engine, Analytics Engine, Visualisation Engine  \\
+        s6 & Import Engine, Processing Engine, Management Engine, Analytics Engine, Visualisation Engine  \\
         \hline
-        S7 & Big Data Layer, Archive Layer, Storage Layer, Presentation Layer  \\
+        s7 & Big Data Layer, Archive Layer, Storage Layer, Presentation Layer  \\
         \hline
-        S8 & Data Source, Real-Time Layer, Serving Layer   \\
+        s8 & Data Source, Real-Time Layer, Serving Layer   \\
         \hline
-        S9 & Access Manager, Intel Big Data Analysis Platform, Data Ingestion, Dat Sources  \\
+        s9 & Access Manager, Intel Big Data Analysis Platform, Data Ingestion, Dat Sources  \\
         \hline
-        S10 & Data Sources, Data Extraction, Data Loading and Pre-Loading, Data Processing, Data Storage, Data Analysis, Data Loading and Transformation, Interfacing and Visualization  \\
+        s10 & Data Sources, Data Extraction, Data Loading and Pre-Loading, Data Processing, Data Storage, Data Analysis, Data Loading and Transformation, Interfacing and Visualization  \\
         \hline
-        S11 & Data Input sources, Data Processing Platform, Processed Data for Client   \\
+        s11 & Data Input sources, Data Processing Platform, Processed Data for Client   \\
         \hline
-        S12 & Application Layer, Analytics Layer, Storage Layer, Data Sources    \\
+        s12 & Application Layer, Analytics Layer, Storage Layer, Data Sources    \\
         \hline
-        S13 & Data Providers, Big Data Application Layer, Big Data Framework Provider, Data Consumers \\
+        s13 & Data Providers, Big Data Application Layer, Big Data Framework Provider, Data Consumers \\
         \hline
-        S14 & Data Generation, Data Streams, Data Storage, Stream Processing, Data Warehouse, Hadoop Cluster, Machine Learning, Presentation \\
+        s14 & Data Generation, Data Streams, Data Storage, Stream Processing, Data Warehouse, Hadoop Cluster, Machine Learning, Presentation \\
         \hline
-        S15 & Batch Layer, Speed Layer, Semantic Layer, Serving Layer \\
+        s15 & Batch Layer, Speed Layer, Semantic Layer, Serving Layer \\
         \hline
-        S16 & Data Source, Data Integration, Data Analysis and Aggregation, Interface/Visualization \\
+        s16 & Data Source, Data Integration, Data Analysis and Aggregation, Interface/Visualization \\
         \hline
-        S17 & Data Provider, System Orcehstrator, Big Data Application Provider, Big Data Framework Provider, Security and Privacy Fabric, Management Fabric, Data Consumer \\
+        s17 & Data Provider, System Orcehstrator, Big Data Application Provider, Big Data Framework Provider, Security and Privacy Fabric, Management Fabric, Data Consumer \\
         \hline
-        S18 & Data Sources, Data Extraction, Data Loading and Preprocessing, Data Processing, Data Storage, Model Development and Interface, Data Transformation and Serving, Interacing and Visualization \\
+        s18 & Data Sources, Data Extraction, Data Loading and Preprocessing, Data Processing, Data Storage, Model Development and Interface, Data Transformation and Serving, Interacing and Visualization \\
         \hline
-        S18 & Data Sources, Data Extraction, Data Loading and Preprocessing, Data Processing, Data Storage, Model Development and Interface, Data Transformation and Serving, Interacing and Visualization \\
+        s19 & Data Provider, Big Data Application Provider, Big Data Framework Provider, System Orchestrator, Management Fabric, Security and Privacy Fabric, Data Consumer \\
         \hline
-        S19 & Data Provider, Big Data Application Provider, Big Data Framework Provider, System Orchestrator, Management Fabric, Security and Privacy Fabric, Data Consumer \\
+        s20 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
         \hline
-        S20 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
+        s21 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
         \hline
-        S21 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
+        s22 & Acquisition Layer, Refinment Layer, Scrutiny Layer, Training Layer, Insight Layer \\
         \hline
-        S22 & Acquisition Layer, Refinment Layer, Scrutiny Layer, Training Layer, Insight Layer \\
-        \hline
-        S23 & Gateway, Stream Processing Service Mesh, Stream Processing Controller, Monitoring, Service Discovery, Query Controller, Batch Processing Controller, Batch Processing Service Mesh, Event Backbone, Data Lake, Query Engine, Event Archive, Semantic Layer, Control Tower, MicroService, Sidecar, Event Queue  \\
+        s23 & Gateway, Stream Processing Service Mesh, Stream Processing Controller, Monitoring, Service Discovery, Query Controller, Batch Processing Controller, Batch Processing Service Mesh, Event Backbone, Data Lake, Query Engine, Event Archive, Semantic Layer, Control Tower, MicroService, Sidecar, Event Queue  \\
         \hline
         \caption{BD RAs Components}
         \label{Table:BD-RAs-Components}
@@ -476,15 +474,15 @@ To answer this question in a systematic manner, and as a result of our data extr
 
 Different studies have chosen different phrases to describe their architectural components, and there seems to be no standard way of modeling BD RAs. The usage of architectural definition languages such as Archimate is scarce, and most studies have used boxes and lines with specifically defined ontologies. This made understanding and comparison of these RAs a difficult task that requires constant translation from one ontology to another. 
 
-Initially we've done an automated text analysis on these components' names to try to highlight commonalities and word usage. The word cloud of these components are portrayed in \ref{image:word-cloud}
+Initially we've done an automated text analysis on these components' names to try to highlight commonalities and word usage. The word cloud of these components are portrayed in figure \ref{image:word-cloud}.
 
-\begin{figure}
+\begin{figure}[h]
     \includegraphics[width=12cm]{wordcloud.png}
     \caption{BD RA Component Names Word Cloud}
-    \Ref{image:word-cloud}
+    \label{image:word-cloud}
 \end{figure}
 
-Among the names authors used to name their components, 'big data application provider' seems to have been used the most (5 occurrences), and 'big data framework provider' the next (3 occurrences). This is due to the fact  that a few of the RAs are built upon NIST BD RA, and have therefore adopted the terminology. One term that all studies seems to have been using uniformly is 'data consumer' and 'data provider'. Moreover, most studies have chosen the phrase 'layer' to logically group different components of the RA.
+Among the names authors used to name their components, 'big data application provider' seems to have been used the most (5 occurrences), and 'big data framework provider' the next (3 occurrences). This is due to the fact  that a few of the RAs are built upon NIST BD RA (s17), and have therefore adopted the terminology. One term that all studies seems to have been using uniformly is 'data consumer' and 'data provider'. Moreover, most studies have chosen the phrase 'layer' to logically group different components of the RA.
 
 To achieve this, we paid clear attention to the description of these components and categorized them based on their functions. These categories are; 1) BD Management and Storage, 2) Data Processing and Application Interfaces, 3) BD Infrastructure.
 
@@ -500,17 +498,17 @@ Another architectural component that is popular in BD RAs is data lake. Data lak
 
 Similar to the way that Business Intelligence (BI) and BD differ in their source data types both in terms of granularity and data structure of it, a data lake and data warehouse are different. In the case of a data warehouse, usually a relational database is used which decreases flexibility when it comes to analysis and can potentially cause considerable costs. In the case of data lake, data of different kind can be stored without the engineer needing to define the schema in advance. This increases the flexibility.
 
-Howbeit, this flexibility itself has its own downside and can be abused by data engineers. One can throw different data sets without much regard at all for how they’re structured, which leads to what people refer to as data swamp. Data governance can alleviate some of these issues \cite{monolithToMesh}.
+Howbeit, this flexibility itself has its own downside and can be abused by data engineers. One can throw different data sets in the data lake, without much regard for how they’re structured and consumed, and this can in turn, result in the creation of a data swamp. Data governance and active metadata can alleviate some of these issues \cite{monolithToMesh}.
 
-Based on the results of this synthesis, we posit that BD RAs are driven by three main paradigms; 1) Enterprise data warehouse paradigm, 2) data lake paradigm, and 3) cloud based paradigm. 
+Based on the results of this synthesis, we posit that BD RAs are driven by three main paradigms; 1) enterprise data warehouse paradigm, 2) data lake paradigm, and 3) multi-modal cloud based paradigm. 
 
-The first paradigm revolves around large monolithic enterprise data warehouses, with ETLs, staging environments and a data processing pipeline. A good example of the first paradigm is S5. The second paradigm is about monolithic data lakes with data with similar data processing pipelines happening at a different stage. A good example of the second paradigm is S22. The third paradigm is not that far away from the second, but aims to incorporate more elements of distributed systems. A good example of this paradigm is the S8.
+The first paradigm revolves around large monolithic enterprise data warehouses, with ETLs, staging environments and a data processing pipeline. A good example of the first paradigm is S5. The second paradigm is about monolithic data lakes containing data that follows a similar data processing pipelines as data warehouses, but happening at a later stage. A good example of the second paradigm is S22. The third paradigm is not that far away from the second, but aims to incorporate more elements of distributed systems and cloud features. A good example of this paradigm is the S8.
 
-Some RAs sit at a higher level of abstraction. A good example is S21. For these kind of RAs, one cannot assume the nature of the pipelines and if the storage would be monolithic or not. In S21, there's a depiction of various kinds of storage in the 'Big Data Platform Layer', indicating that one may choose to opt in for polyglot persistance. 
+Moreover, some RAs sit at a higher level of abstraction. A good example is S21. For these kind of RAs, one cannot assume the nature of the pipelines and if the storage would be monolithic or not. In S21, there's a depiction of various kinds of storage in the 'Big Data Platform Layer', indicating that one may choose to opt in for polyglot persistance. Therefore, only the resulting system can help us realize what paradigm the RA may belong to. 
 
-When it comes to big data management, many of the cross-cutting concerns seems to be overlooked. For instance, we have realized that many BD RAs do not pay a clear attention to privacy, metadata management and data quality. While some RAs tend to revolve around security such as S13, and some other tend to revolve around metadata management such as S15, we could not find a comprehensive explication of big data management. 
+When it comes to big data management, many of the cross-cutting concerns seems to be overlooked. For instance, we have realized that many BD RAs do not pay a clear attention to security, privacy, metadata management and data quality. While some RAs tend to revolve around security such as S13, and some other tend to revolve around metadata management such as S15, we could not find a comprehensive explication of BD cross-cutting concerns.
 
-We could not understand how some of the RAs could account for data source proliferation and how rapidly they could react to regional data privacy changes. 
+We could not understand how some of the RAs could scale to account for data source proliferation and how rapidly they could react to regional data privacy changes. 
 
 \subsection{Data Processing and Application Interfaces}
 
@@ -522,9 +520,11 @@ For instance, most algorithms for stream processing are using in-memory stateful
 
 Various studies have provided different level of abstraction when it comes to describing data processing. While some studies like S19 describe the processes in the data processing pipeline, some others like s15 have just abstracted it to 'batch processing' or 'stream processing'. 
 
-Moreover, we realized two category of data processing. First category utilizes two different architectural constructs for batch and stream processing, while the latter tends to process both in one architectural component. This is a difference that can be seen between Lambda and Kappa, and the RAs that have been derived from the two. Some RAs such as S17 have used three architectural constructs, namely batch, streaming and interactive. 
+Moreover, we realized two category of data processing. First category utilizes two different architectural constructs for batch and stream processing, while the latter tends to process both in one architectural component. This is a difference that can be seen between Lambda and Kappa, and the RAs that have been derived from the two. Some RAs such as S17 have used three architectural constructs, namely batch node, streaming node and interactive node. 
 
 BD interfaces are communicated in two different ways, either the RA only presented a 'serving or access layer' (S21, S17), or several components that are each specific to a different requirement (ML, BI, etc). The latter can be witnessed in S16.
+
+Some RAs tend to clearly distinguish to ingress and egress interfaces and inter-node interfaces such as s23, while others mostly annotated interfaces with just an arrow. Along the lines, some studies have created terms for their interfaces such as 'provider-request interface' in s15. While interfaces are quite important architectural constructs, current RAs don't seem to be vested a lot of interest in clearly portraying them. 
 
 \subsection{BD Infrastructure}
 

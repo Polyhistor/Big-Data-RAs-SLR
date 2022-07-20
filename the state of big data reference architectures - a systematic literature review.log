@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 JUL 2022 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 JUL 2022 22:16
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/the state of big data reference architectures - a systematic literature review.tex"
@@ -364,102 +364,21 @@ Overfull \hbox (0.63477pt too wide) in paragraph at lines 423--423
  []
 
 
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 443--443
-[]|\OT1/cmr/m/n/10 S10| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 445--445
-[]|\OT1/cmr/m/n/10 S11| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 447--447
-[]|\OT1/cmr/m/n/10 S12| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 449--449
-[]|\OT1/cmr/m/n/10 S13| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 451--451
-[]|\OT1/cmr/m/n/10 S14| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 453--453
-[]|\OT1/cmr/m/n/10 S15| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 455--455
-[]|\OT1/cmr/m/n/10 S16| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 457--457
-[]|\OT1/cmr/m/n/10 S17| 
- []
-
-
 Underfull \hbox (badness 1325) in paragraph at lines 457--458
 []|\OT1/cmr/m/n/10 Data Provider, Sys-tem Or-cehstra-tor, Big Data Ap-pli-ca-tion
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 459--459
-[]|\OT1/cmr/m/n/10 S18| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 461--461
-[]|\OT1/cmr/m/n/10 S18| 
  []
 
 
 Underfull \vbox (badness 10000) detected at line 462
  []
 
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 463--463
-[]|\OT1/cmr/m/n/10 S19| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 465--465
-[]|\OT1/cmr/m/n/10 S20| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 467--467
-[]|\OT1/cmr/m/n/10 S21| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 469--469
-[]|\OT1/cmr/m/n/10 S22| 
- []
-
-
-Overfull \hbox (1.32924pt too wide) in paragraph at lines 471--471
-[]|\OT1/cmr/m/n/10 S23| 
- []
-
 [26] [27] [28]
-
-LaTeX Warning: Reference `image:word-cloud' on page 29 undefined on input line 479.
-
-<wordcloud.png, id=505, 1445.4pt x 763.85374pt>
+<wordcloud.png, id=504, 1445.4pt x 763.85374pt>
 File: wordcloud.png Graphic file (type png)
 <use wordcloud.png>
-Package pdftex.def Info: wordcloud.png  used on input line 482.
+Package pdftex.def Info: wordcloud.png  used on input line 480.
 (pdftex.def)             Requested size: 341.43306pt x 180.43808pt.
-
-LaTeX Warning: Reference `image:word-cloud' on page 29 undefined on input line 484.
-
-[29 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/wordcloud.png>] [30] [31] [32] [33]
+ [29 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Information and software technology/wordcloud.png>] [30] [31] [32] [33]
 Overfull \hbox (0.63477pt too wide) in paragraph at lines 549--549
 []|\OT1/cmr/m/n/10 RA| 
  []
@@ -589,17 +508,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--427
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / obamawhitehouse . archives . gov / blog / 2012 / 03 / 29 /
  []
 
 [55]
-Underfull \hbox (badness 1533) in paragraph at lines 461--464
+Underfull \hbox (badness 1533) in paragraph at lines 455--458
 []\OT1/cmr/m/n/10 G. Marquez, H. As-tudillo, Ac-tual use of ar-chi-tec-tural pat-terns in
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 466--470
+Underfull \hbox (badness 1975) in paragraph at lines 460--464
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / martinfowler . com / articles / data-[]monolith-[]to-[]mesh .
  []
 
@@ -612,23 +531,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 679.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 679.
 Package rerunfilecheck Info: File `"the state of big data reference architectures - a systematic literature review".out' has not changed.
 (rerunfilecheck)             Checksum: 3CDEFC47B08F74744D0BA2E706AB3789;1444.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 7443 strings out of 480795
- 119572 string characters out of 2913777
- 414556 words of memory out of 3000000
- 23118 multiletter control sequences out of 15000+200000
+ 7439 strings out of 480795
+ 119487 string characters out of 2913777
+ 414595 words of memory out of 3000000
+ 23115 multiletter control sequences out of 15000+200000
  536617 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,36p,1107b,789s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Information and software technology\the state of big data reference architectures - a systematic literature review.pdf" (56 pages, 848107 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Information and software technology\the state of big data reference architectures - a systematic literature review.pdf" (56 pages, 848345 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
  184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
