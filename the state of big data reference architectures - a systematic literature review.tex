@@ -338,7 +338,7 @@ By the virtue of the findings from this SLR, and by studying the approaches from
 
 \section{What are current BD RAs available in academia and industry?}
 
-As a result of this SLR and to answer RQ1, 23 BD RA has been found, among which 15 RAS are from academia, 8 from practice. These RA are listed in Table 1.
+As a result of this SLR and to answer RQ1, 22 BD RA has been found, among which 14 RAS are from academia, 8 from practice. These RA are listed in Table 1.
 
 \begin{longtable}{ |p{0.5cm}|p{6.5cm}|p{1.5cm}|p{0.8cm}| }
     \hline
@@ -382,13 +382,11 @@ As a result of this SLR and to answer RQ1, 23 BD RA has been found, among which 
     \hline
     s19 & A Big Data Reference Architecture for Emergency Management (\cite{iglesias2020big})  & Academia & 2020   \\
     \hline
-    s20 & Smart Transportation: A Reference Architecture for Big Data Analytics (\cite{castellanos2021smart})  & Academia & 2020   \\
+    s20 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
     \hline
-    s21 & ISO/IEC 20547-3:2020 BS ISO/IEC 20547 3:2020 Information technology. Big data reference architecture. Reference architecture (\cite{ISO20547}) & Practice  &  2020  \\
+    s21 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
     \hline
-    s22 & Phi: A Generic Microservices-Based Big Data Architecture (\cite{maamouri2021phi})  & Academia & 2021   \\
-    \hline
-    s23 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
+    s22 & NeoMycelia: A software reference architecturefor big data systems (\cite{AtaeiApsec})  & Academia & 2021   \\
     \hline
     \caption{BD RAs}
     \label{table:bdRAs}
@@ -462,11 +460,9 @@ To answer this question in a systematic manner, and as a result of our data extr
         \hline
         s20 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
         \hline
-        s21 & Big Data Application Provider, Big Data Processing Layer, Big Data Platform Layer, Big Data Infrastructure Layer, Integration, Security and Privacy, System Management, Big Data Provider, Big Data Consumer \\
+        s21 & Acquisition Layer, Refinment Layer, Scrutiny Layer, Training Layer, Insight Layer \\
         \hline
-        s22 & Acquisition Layer, Refinment Layer, Scrutiny Layer, Training Layer, Insight Layer \\
-        \hline
-        s23 & Gateway, Stream Processing Service Mesh, Stream Processing Controller, Monitoring, Service Discovery, Query Controller, Batch Processing Controller, Batch Processing Service Mesh, Event Backbone, Data Lake, Query Engine, Event Archive, Semantic Layer, Control Tower, MicroService, Sidecar, Event Queue  \\
+        s22 & Gateway, Stream Processing Service Mesh, Stream Processing Controller, Monitoring, Service Discovery, Query Controller, Batch Processing Controller, Batch Processing Service Mesh, Event Backbone, Data Lake, Query Engine, Event Archive, Semantic Layer, Control Tower, MicroService, Sidecar, Event Queue  \\
         \hline
         \caption{BD RAs Components}
         \label{Table:BD-RAs-Components}
@@ -538,78 +534,74 @@ Therefore, CAP theorem, ACID and BASE transactions, data consistency, service di
 
 All and all, as a result of this SLR, a component of a BD infrastructure has been witnessed as a common pattern, in various forms and approaches. We consider platform layer of BD as a major architectural component of these systems. Whereas one might argue that infrastructure is an architectural component of any system, the design challenge is more significant in the case of BD systems as these systems are usually distributed in nature.
 
-Another area of BD systems that is DataOps.
+Another area that seems to be neglected is DataOps. While DataOps can play an important role in the automation and delivery of data engineering workloads in an agile manner, we could not find BD RAs that incorporate this aspect.
 
 Lastly, our findings depicts the fact that many of RA presented are not designed underlying completely distributed architecture while BD systems can benefit from this paradigm. An exception to this is S23, which is absorbing many patterns from event-driven microservices architecture.
 
 \section{What are the limitations of current BD RAs?}
 
-To answer the RQ3, RAS collected for this SLR have been appraised to point out limitations. To arrive at this objective systematically, we first described each RA with its limitation briefly. This is portrayed in \ref{table:BD-RAs-Limitations}.
+To answer the RQ3, RAS collected for this SLR have been appraised to point out limitations. To arrive at this objective systematically, we first described each RA with its limitation briefly. This is portrayed in table \ref{table:BD-RAs-Limitations}.
 
 \begin{longtable}{|p{0.5cm}|p{11cm}|}
         \hline
         RA & Description/Limitations \\ 
         \hline
-        S1 & One of pioneers of BD architectures, and perhaps the oldest one, does not address data quality issue, does not address seem to address changes in landscape of data, seem to be hitting the bare minimum requirement of BD systems  \\
+        S1 & While Lambda is one of pioneers of BD architectures, and perhaps the oldest one, it does not address data quality issues, does not address seem to address changes in landscape of data, and seems to be providing with the bare minimum requirement for BD systems  \\
         \hline
-        S2 & This RA is specifically designed for the domain of healthcare and life sciences, does not seem to cover data quality, is overly abstract, resembles to n-tier architectures, and pivotes on IBM specific softwares such as LSF process manager, LSF application center, and LSF data manager. \\
+        S2 & This RA is specifically designed for the domain of healthcare and life sciences, does not seem to account for data quality, security and privacy. Resembles to monolithic n-tier architectures, and pivots on IBM specific solutions such as LSF process manager, LSF application center, and LSF data manager. \\
         \hline
-        S3 & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce and seems to revolve around it, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Tez and Spark.  \\
+        S3 & This RA seems to be covering a very general scenario of big data analytics, without any attention to either metadata or security. It flows from data sources to data transformation, and into data usage, but it's unclear how data quality is assured, how it will support changes in data landsacpe, and how it will respond to changes. In addition, the RA is heavy influenced by MapReduce, while MapReduce may not provide the best of performance in comparison to newer approaches such as acyclic direct graph used in Apache Spark and Tez.  \\
         \hline
         S4 & A classically designed RA with 3 main phases of ingestion, processing and providing. This RA has underlying mechanisms that facilitates 'right-time' flow of data through the system. This is achieved by having two architectural constructs for strongly typed data and weakly typed data. While this was annotated as the data quality part of the RA, it does not seem to account for data ownership and changes in data landscape. In addition, this RA utilizes data mart for access and performance, whi can affect the overall modifiability negatively.   \\
         \hline
-        S5 & This RA the augmentation of traditional data warehouse architectures with a few new components to account for stream processing. The RA defines three kind of storage, data warehouse, sandbox and raw data archive that communicate with each other through data load components. There seems to be many moving parts in this RA, and privacy and metadata is clearly addressed. Nevertheles, the RA is lacking in the area of security, data provenance, scalability and modifiability. We can't tell how data ownership is place, and how data quality is addressed. It's also driven mostly by traditional warehouse way of thinking, like staging environments and data marts.  \\
+        S5 & This RA is the augmentation of traditional data warehouse architectures with a few new components to account for stream processing. The RA defines three kind of storage, data warehouse, sandbox and raw data archive that communicate with each other through data load components. There seems to be many moving parts in this RA, and privacy and metadata is clearly addressed. Nevertheles, the RA is lacking in the area of security, data provenance, scalability and modifiability. We can't tell how data ownership is in place, and how data quality is addressed. It's also driven mostly by data warehouse way of thinking, like staging environments and data marts, which can be hard to maintain.  \\
         \hline
-        S6 & This RA seems to be portraying the bare minimum requirements for big data analytics with no mention of security, privacy, metadata, or data quality. The RA is published as a short paper, so many details are missing. \\
+        S6 & This RA seems to be portraying the bare minimum requirements for big data analytics with no mention of security, privacy, metadata, or data quality. The RA is published as a short paper,thus not much detail is given. \\
         \hline
-        S7 & This RA provides with bare minimum components for data analytics, without any clear delineation on stream processing. The RA seems to be done in quite a reductionist manner, with no attention to privacy, security, metadata, and data quality. Data storage seems to be only associated to hardware, and thus it's unclear how data is evolved and scaled.  \\
+        S7 & This RA provides with bare minimum components for data analytics, without any clear identification of stream processing. The RA seems to be done in quite a reductionist manner, with no attention to privacy, security, metadata, and data quality. Data storage seems to be only associated to hardware, and thus it's unclear how data is evolved and scaled.  \\
         \hline
-        S8 & Kappa is perhaps the predecessor of Lambda, aiming to address some of the limitations of it. The major different between Kappa and Lambda is that Kappa has a unified processing layer for batch and stream process, which eliminates the complexity of maintaining two separate systems, reduces costs, and can potentially increase data quality. Nevertheless, this architecture, does not discuss metadata, security, privacy, data quality, and maintainability in details.  \\
+        S8 & Kappa is perhaps the predecessor of Lambda, aiming to address some of the limitations of it. The major difference between Kappa and Lambda is that Kappa has a unified processing layer for batch and stream process, which eliminates the complexity of maintaining two separate systems, and reduces costs.Nevertheless, this architecture, does not discuss metadata, security, privacy, data quality, and maintainability in details.  \\
         \hline
-        S9 & This is BD RA designed for healthcare application by Intel. This RA is not elaborated in detail, does not seem to account for cross-cutting concerns such as security, metadata, privacy, and data quality. The concept of access manager seems to be vague, as we could not understand how the access is managed. This RA seems to be a simple instance of a Hadoop ecosystem with some extras added   \\
+        S9 & This BD RA is designed for healthcare application by Intel. This RA is not elaborated in detail, does not seem to account for cross-cutting concerns such as security, metadata, privacy, and data quality. The concept of access manager seems to be vague, as we could not understand how the access is managed. Moreover, the artefact seems to be a simple instance of Hadoop ecosystem with some extra components added   \\
         \hline
         S10 & A comprehensive RA that aim to cover many aspects of data engineering. Nevertheless, we did not find any notion of metadata management, neither was a discussion on security and prviacy challenges. While this RA could work succesfully for a regular BD workflows, we are unsure how data quality is met and how scalability is achieved.  \\
         \hline
-        S11 & This RA is made up of three major phases, ingestion, processing and presentation. It is designed around Hadoop ecosystem, and provides with bare minimum necessary to conduct data analytics. We could not find a discussion on metadata management, security, privacy or data quality. The pipeline is using a data warehouse, specifically Data Warehouse, and uses it to communicate to the Hadoop side of things. We are not sure how unstructured is handled, and how data lineage is achieved.  \\
+        S11 & This RA is made up of three major phases, ingestion, processing and presentation. It is designed around Hadoop ecosystem, and provides with bare minimum necessary to conduct data analytics. We could not find a discussion on metadata management, security, privacy or data quality. The data pipeline is using a data warehouse,and uses it to communicate to the Hadoop side of things. We are not sure how unstructured data is handled, and how data lineage is achieved.  \\
         \hline
         S12 & This architecture is specifically designed for waste management, and seems to be using an approach similar to Kappa. The data takes a generic flow from data sources to application, without any clear identification of data quality, privacy and security concerns.    \\
         \hline
-        S13 & This RA is specifically deigned for the security domain and seems to have a lot of inspiration from NIST BD RA. The RA is layed out in fabrics just like the NIST one, and unlike many others, does mention cross-cutting concerns such as security explicitly. However the concept of data ownership is not discsussed, there's no mention of metadata or privacy, and the evaluation is not extensive. That is, we cannot ensure how the derived solutions from this RA can scale.    \\
+        S13 & This RA is specifically deigned for the security domain and seems to have a lot of inspiration from NIST BD RA. The RA is layed out in fabrics just like the NIST one, and unlike many others, does mention cross-cutting concerns such as security explicitly. However the concept of data ownership is not discsussed, there's no mention of metadata or privacy, and the artefact evaluation is not extensive. That is, we cannot ensure how the derived solutions from this RA can scale.    \\
         \hline
         S14 & A generic RA that resembles to Lambda architecture, with stream and batch processing being processed in different nodes. This RA utilizes data warehouses and hadoop cluster for data processing. It was unclear how the security, privacy, metadata, and data quality is achieved. Maintainability aspects are not discussed as well. \\
         \hline
-        S15 & This RA extends the Lambda architecture by adding a semantic layer. It has a great focus on handling metadata in a right manner, but it does not seem to have any identification of other cross-cutting concerns such as privacy, security or data quality. It also adopts the idea of separate batch and stream layers, which makes modifiability and cost harder. \\
+        S15 & This RA extends the Lambda architecture by adding a semantic layer. It has a great focus on handling metadata in a right manner, but it does not seem to have any identification of other cross-cutting concerns such as privacy, security or data quality. It also adopts the idea of separate batch and stream layers, which can potentailly affect modifiability negatively and increase cost. \\
         \hline
-        S16 & This RA clearly segregates stream data from other data, and defines clear interfaces for ingestion of different data types. It then passes the data directly to a distributed storage (Hadoop's HDFS), and retrieves it later for deduplication and cleaning. While the RA seems to have addressed the minimum requirements of data anlytics, it does not seem to address cross-cutting concerns such as metadata, security and privacy. It is also unclear on how data quality is achieved. \\
+        S16 & This RA clearly segregates stream data from other data, and defines clear interfaces for ingestion of different data types. It then passes the data directly to a distributed storage (Hadoop's HDFS), and retrieves it later for deduplication and cleaning. While the RA seems to have addressed the minimum requirements of data anlytics, it does not seem to address cross-cutting concerns such as metadata, security and privacy. It is also unclear how data quality is achieved. \\
         \hline
         S17 & This is perhaps the most comprehensive BD RA found in this SLR, and has been heavily funded by the government of the USA. While this RA is a good tool to facilitate open discussion, design structures, requirements, and operations inherent in BD, it is more of a high-level conceptual model of BD, rather than an effective BD RA. Some of the limitations witnessed in this RA is in its brief mention of metadata management (only discussed in lifecycle management), unclear approaches to attain data quality and data ownership, and potential monolithic coupling of components in big data application provider. \\
         \hline
-        S18 & This RA segregates data extraction and data loading phases, and tend to adopt the idea of segregating stream and batch processing layers. Nevertheless, we could not find the identitifaction of cross-cutting concerncs such privacy, security or metadata management. We could not understand how data quality is achieved. There are also three storage designed, but seems like all data will eventually be stored in one giant storage. This poses a threat and create a bottleneck. \\
-        \hline
-        S18 & This RA segregates data extraction and data loading phases, and tend to adopt the idea of segregating stream and batch processing layers. Nevertheless, we could not find the identitifaction of cross-cutting concerncs such privacy, security or metadata management. We could not understand how data quality is achieved. There are also three storage designed, but seems like all data will eventually be stored in one giant storage. This poses a threat and create a bottleneck. \\
+        S18 & This RA segregates data extraction and data loading phases, and tend to adopt the idea of segregating stream and batch processing layers. Nevertheless, we could not find the identitifaction of cross-cutting concerncs such privacy, security or metadata management. We could not understand how data quality is achieved. There are also three storage designed, but seems like all data will eventually be stored in one giant storage. This can potentially make modifiability harder and create a choke point. \\
         \hline
         S19 & Driven from the NIST BD RA, this RA is more ore less identical with BD RA, but tailored specifically for emergency management. We skip explanation for this RA, as the limitations discussed for NIST BD RA, can be applied to this one as well. \\
         \hline
-        S20 & Driven from the NIST BD RA, this RA is more ore less identical with BD RA, but tailored specifically for emergency management. We skip explanation for this RA, as the limitations discussed for NIST BD RA, can be applied to this one as well. \\
+        S20 & This RA shares all the fundamental components with BD RA, and seems to be very similar. However, the phrase fabrics seesm to be changed to multi-layer functions. Therefore this RA, just like NIST is too abstract and leaves many architectural decisions unknown such as data storage, data quality assurance, and data ownership. It is unclear on how storage should be approached, and the overal structure resembles to a monolithic data pipeline architecture. \\
         \hline
-        S21 & This RA shares all the fundamental components with BD RA, and seems to be very similar. However, the phrase fabrics seesm to be changed to multi-layer functions. Therefore this RA, just like NIST is too abstract and leaves many architectural decisions unknown such as data storage, data quality assurance, and data ownership. It is unclear on how storage should be approached, and the overal structure resembles to a monolithic data pipeline architecture. \\
+        S21 & One of the few RAs that tend to absorb the concept of microservices into BD development. Nevertheless, the RA seems to be driven by the idea of one data lake for all data storage, which can be a daunting task to scale and maintain. The concept of metadata does not seem to be discussed, and other concerns such as security, privacy, data quality and data provenance are unclear.  \\
         \hline
-        S22 & One of the few RAs that tend to absorb the concept of microservices into BD development. Nevertheless, the RA seems to be driven by the idea of one data lake for all data storage, which can be a daunting task to scale and maintain. The concept of metadata does not seem to be discussed, and other concerns such as security, privacy, data quality and data provenance are unclear.  \\
-        \hline
-        S23 & This RA absorbs a lot of patterns from microservices event driven architectures and reactive systems and tend to absorb them into the BD development. While there's been a clear attention to cross-cutting concerns such as metadata, and privacy, security does not seem to be well discussed in the study. The RA also tends to use data lake as the single source of storage which can be challenging to scale.  \\
+        S22 & This RA absorbs a lot of patterns from microservices event driven architectures and reactive systems and tend to absorb them into the BD development. While there's been a clear attention to cross-cutting concerns such as metadata, and privacy, security does not seem to be well discussed in the study. The RA also tends to use data lake as the single source of storage which can be challenging to scale.  \\
         \hline
         \caption{BD RAs and Their Limitations}
         \label{table:BD-RAs-Limitations}
 \end{longtable}
 
 Except for one case (S22), all the architectures and RAs found as the result of this study, were designed underlying monolithic data pipeline architecture with four major components being data consumer, data processing, data infrastructure and data providers. To discuss the integral facets that embroil these architectures, one must
-look at the characteristics of these architectures and the ways in which they achieve their ends, with quality attributes surrounding it.
+look at the characteristics of these architectures and the ways in which they achieve their ends.
 
 The process of turning data into actionable insights in these architectures usually follow a similar lifecycle;
 
 \begin{enumerate}
-    \item \textbf{Data Ingestion}: system beings to ingest data from all corners of the enterprise, including both transactional, operational and external data.
-    \item \textbf{Data Transformation}: data captured from the previous step is then cleansed for duplication, quality, and potentially scrubbed for privacy policies. This data then goes through a multifaceted enrichment process to facilitate data analysis.
+    \item \textbf{Data Ingestion}: system begins to ingest data from all corners of the enterprise, including both transactional, operational and external data.
+    \item \textbf{Data Transformation}: data captured from the previous step is then cleansed for duplication, quality, and potentially scrubbed for privacy policies (scrubbing is hardly discussed in the studied RAs). This data then goes through a multifaceted enrichment process to facilitate data analysis.
     \item \textbf{Data Serving}: at this stage, data is ready to be served to diverse array of needs ranging from machine learning to marketing analytics, to business intelligence to product analysis and customer journey optimization.
 \end{enumerate}
 
@@ -619,10 +611,15 @@ The lifecycle depicted is indeed a high-level abstract view of prevalent BD syst
 While architectures in software engineering have gone through series of evolution in the industry, adopting a more decentralized and distributed approaches such as microservice architecture, event driven architectures, reactive systems, and domain driven design , the data engineering, and in specific BD ecosystems do not seem to be adopting many of these patterns. The whole idea of 'monolithic data
 pipeline architecture with no clearly defined domains and ownership' brings significant challenges to design, implementation, maintenance and scaling of BD systems.
 
-This architecture and design process if done underlying current prevalent approaches, can bring about colossal losses, and leave many managers disappointed.
-Nevertheless, we don't claim that all these architectures will fail, perhaps some have proven to be successful in a specific context. There are two threats to maintainability and scalability of these systems; 1) \emph{Data source proliferation}: as the BD system grows and more data
-sources are added, the ability to ingest, process, and harmonize all these data in one place diminishes, 2)\emph{Data consumer proliferation}: organizations that utilize rapid experimentation approaches such Hypothesis-Driven Development and Continuos Delivery constantly introduce new use cases for data to be consumed in different domains. This means that variability of the data rises, and the sum of aggregations, projections, and slices increases, which in turn adds more work to the backlog of the data team, slowing
-down the process of serving the data to consumers.
+This architecture and system design if done underlying these approaches, can result in hard to maintain systems with high costs, and leave many managers disappointed.
+Nevertheless, we don't claim that all these architectures will fail, perhaps some have proven to be successful in a specific context. There are two threats to maintainability and scalability of these systems; 
+
+\begin{itemize}
+    \item \emph{Data source proliferation}: as the BD system grows and more data
+    sources are added, the ability to ingest, process, and harmonize all these data in one place diminishes.
+    \item \emph{Data consumer proliferation}: organizations that utilize rapid experimentation approaches such Hypothesis-Driven Development and Continuos Delivery constantly introduce new use cases for data to be consumed in different domains. This means that variability of the data rises, and the sum of aggregations, projections, and slices increases, which in turn adds more work to the backlog of the data engineering team, slowing
+    down the process of serving the data to consumers.
+\end{itemize}
 
 Another limitation that we came across was that the concept of metadata has been poorly discussed. For instance, S5 discussed the limitation of metadata management systems, stating that most metadata solutions are ad-hoc. The researcher then went ahead and introduced a layer for metadata management in the RA, but as a non-integrated component. For instance, the author did not discuss how data provenance can be achieved through the RA and underlying which logical flow one can do linear analysis. 
 

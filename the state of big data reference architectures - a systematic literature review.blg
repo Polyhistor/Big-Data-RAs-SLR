@@ -28,45 +28,45 @@ Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
 Warning--empty year in House
 Warning--empty journal in chang2015nist
-You've used 93 entries,
+You've used 92 entries,
             2952 wiz_defined-function locations,
-            1186 strings with 22456 characters,
-and the built_in function-call counts, 27457 in all, are:
-= -- 2455
-> -- 894
-< -- 25
-+ -- 360
-- -- 267
-* -- 1664
-:= -- 3582
-add.period$ -- 94
-call.type$ -- 93
-change.case$ -- 81
+            1181 strings with 22262 characters,
+and the built_in function-call counts, 27002 in all, are:
+= -- 2411
+> -- 884
+< -- 24
++ -- 356
+- -- 264
+* -- 1639
+:= -- 3532
+add.period$ -- 93
+call.type$ -- 92
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 1002
-empty$ -- 3323
-format.name$ -- 332
-if$ -- 7349
+cite$ -- 115
+duplicate$ -- 981
+empty$ -- 3267
+format.name$ -- 328
+if$ -- 7224
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 92
-newline$ -- 304
-num.names$ -- 87
-pop$ -- 751
+int.to.str$ -- 92
+missing$ -- 91
+newline$ -- 301
+num.names$ -- 86
+pop$ -- 739
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1945
+skip$ -- 1911
 stack$ -- 0
-substring$ -- 1188
-swap$ -- 262
-text.length$ -- 25
+substring$ -- 1156
+swap$ -- 253
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 199
-width$ -- 95
-write$ -- 755
+while$ -- 195
+width$ -- 94
+write$ -- 746
 (There were 23 warnings)
