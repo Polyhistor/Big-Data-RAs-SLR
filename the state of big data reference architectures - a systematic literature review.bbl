@@ -61,15 +61,15 @@ I.~Iso, \href{https://www.iso.org/standard/63104.html}{Information technology
 G.~Muller, A reference architecture primer, Eindhoven Univ. of Techn.,
   Eindhoven, White paper (2008).
 
-\bibitem{Bass}
-L.~Bass, I.~Weber, L.~Zhu, DevOps: A software architect's perspective,
-  Addison-Wesley Professional, 2015.
-
 \bibitem{angelov2009classification}
 S.~Angelov, P.~Grefen, D.~Greefhorst, A classification of software reference
   architectures: Analyzing their success and effectiveness, in: 2009 Joint
   Working IEEE/IFIP Conference on Software Architecture \& European Conference
   on Software Architecture, IEEE, 2009, pp. 141--150.
+
+\bibitem{Bass}
+L.~Bass, I.~Weber, L.~Zhu, DevOps: A software architect's perspective,
+  Addison-Wesley Professional, 2015.
 
 \bibitem{page2021prisma}
 M.~J. Page, D.~Moher, P.~M. Bossuyt, I.~Boutron, T.~C. Hoffmann, C.~D. Mulrow,
